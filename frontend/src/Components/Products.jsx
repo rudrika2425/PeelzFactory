@@ -3,7 +3,7 @@ import product from "./data/product.json";
 import ProductCard from "./ProductCard";
 import { getProductImages } from "./utils/imagePaths";
 
-const categories = ["All", "Home Care", "Agriculture", "Animal Care"];
+const categories = ["All Products", "Home Care", "Agriculture", "Animal Care"];
 const getLastTwoWords = (name) => name.trim().split(/\s+/).slice(-2).join(" ");
 
 const sortProductsByLastTwoWords = (products) =>
@@ -16,10 +16,10 @@ const sortProductsByLastTwoWords = (products) =>
   );
 
 const Products = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("All Products");
   const filteredProducts = useMemo(
     () => sortProductsByLastTwoWords(
-      selectedCategory === "All"
+      selectedCategory === "All Products"
         ? product
         : product.filter((item) => item.category === selectedCategory),
     ),
@@ -33,12 +33,12 @@ const Products = () => {
         <h1 className="mt-3 text-3xl font-bold sm:text-4xl md:text-5xl">Natural products for everyday progress.</h1>
         <p className="mt-5 max-w-3xl text-lg leading-[1.7] text-peelz-dark/75">Explore practical, eco-conscious solutions for homes, farms, and animal care. Every product is designed to make responsible choices simpler.</p>
       </header>
-      <div className="mx-auto mt-8 grid max-w-[1200px] grid-cols-[5.5rem_minmax(0,1fr)] gap-2 sm:mt-12 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-4 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-8">
-        <aside className="h-fit rounded-xl border border-peelz-aqua/50 bg-white p-2 shadow-sm sm:p-5">
-          <h2 className="text-xs font-bold sm:text-base">Filter</h2>
-          <div className="mt-3 grid gap-1 sm:mt-4 sm:gap-2">
+      <div className="mx-auto mt-8 grid max-w-[1200px] gap-5 sm:mt-12 md:grid-cols-[9rem_minmax(0,1fr)] md:gap-4 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-8">
+        <aside className="h-fit rounded-xl border border-peelz-aqua/50 bg-white p-2 shadow-sm sm:p-3 md:p-5">
+          
+          <div className="flex gap-1 overflow-x-auto sm:gap-2 md:grid md:overflow-visible">
             {categories.map((category) => (
-              <button type="button" key={category} onClick={() => setSelectedCategory(category)} className={`break-words rounded-lg px-2 py-2 text-left text-[0.65rem] font-semibold leading-tight transition sm:px-4 sm:py-3 sm:text-sm ${selectedCategory === category ? "bg-peelz-dark text-white" : "text-peelz-dark hover:bg-peelz-sage"}`}>
+              <button type="button" key={category} onClick={() => setSelectedCategory(category)} className={`shrink-0 break-words rounded-lg px-3 py-2 text-left text-[0.65rem] font-semibold leading-tight transition sm:px-4 sm:py-2 sm:text-sm md:px-4 md:py-3 ${selectedCategory === category ? "bg-peelz-dark text-white" : "text-peelz-dark hover:bg-peelz-sage"}`}>
                 {category}
               </button>
             ))}

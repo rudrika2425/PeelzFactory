@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className={`fixed inset-x-0 top-0 z-50 border-b border-peelz-aqua/50 bg-white transition-shadow duration-200 ${isScrolled ? "shadow-md" : ""}`}>
       <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-3 px-4 py-2 sm:px-5 md:px-7">
         <Link to="/" onClick={() => setIsOpen(false)} aria-label="Peelz Factory home" className="shrink-0">
-          <img src="/images/logo.png" alt="Peelz Factory" className="h-12 w-36 object-contain object-left drop-shadow-sm transition duration-200 hover:scale-[1.02] sm:h-16 sm:w-64" />
+          <img src="/images/logo.png" alt="Peelz Factory" className="h-14 w-44 object-contain object-left drop-shadow-sm transition duration-200 hover:scale-[1.02] sm:h-16 sm:w-64" />
         </Link>
         <div className="hidden min-w-0 items-center gap-4 lg:flex xl:gap-6">
           {navItems.map((item) => (
