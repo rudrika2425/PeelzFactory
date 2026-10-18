@@ -8,14 +8,6 @@
     "bestPrice": 50,
     "size": "1 Kg",
     "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
-    "ingredients": [
-      "Organic Matter & Humus",
-      "Earthworm Castings",
-      "Essential Nutrients (N, P, K)",
-      "Beneficial Microorganisms",
-      "Growth Hormones & Enzymes",
-      "Micro & Macro Minerals"
-    ],
     "whyChoose": [
       "100% Organic & Chemical-Free",
       "Feeds & improves overall soil health",
@@ -46,11 +38,6 @@
     "bestPrice": 125,
     "size": "1 Litre",
     "detail": "Natural Vermi Tea, embodying Peelz Factory's ethos \"Restore Nature, Secure Future\" and guided by \"Feed the Soil, Nourish Your Plants!\", is a 100% non-toxic and natural product derived from aerated extract of vermicompost, rich in beneficial microbes and organic nutrients.",
-    "ingredients": [
-        "Aerated Vermicompost Extract",
-        "Beneficial Microbes",
-        "Organic Nutrients"
-    ],
     "whyChoose": [
         "Boosts soil fertility",
         "Antifungal and antibacterial benefits",
@@ -79,13 +66,6 @@
     "bestPrice": 150,
     "size": "500 ml",
     "detail": "Natural Animal Shield, aligning with Peelz Factory's commitment \"Restore Nature, Secure Future\" and focused on \"Ensure Pet Hygiene, Shed Cleanliness, and Odor-Free Living!\", is a 100% non-toxic and natural formulation enriched with Lemon, Flowers, Neem, and Herbs, powered by Advanced Bioenzyme Technology.",
-    "ingredients": [
-        "Lemon",
-        "Flowers",
-        "Neem",
-        "Herbs",
-        "Advanced Bioenzyme Technology"
-    ],
     "whyChoose": [
         "Promotes animal cleanliness for healthier pets",
         "Antifungal and antibacterial benefits for protection",
@@ -113,17 +93,6 @@
     "bestPrice": 120,
     "size": "1 Litre",
     "detail": "Peelz Factory's Natural Rose Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -149,12 +118,6 @@
     "bestPrice": 200,
     "size": "1 Litre",
     "detail": "Natural Growth Booster is a product enriched with Fruits, Flowers, and Herbs, powered by Advanced Bioenzyme Technology, aimed at stimulating growth and maximizing crop yields, aligning with Peelz Factory's motto \"Restore Nature, Secure Future\".",
-    "ingredients": [
-        "Fruits",
-        "Flowers",
-        "Herbs",
-        "Advanced Bioenzyme Technology"
-    ],
     "whyChoose": [
         "Boosts flowering and fruiting for better crop outcomes",
         "Improves nutrient absorption by plants",
@@ -183,12 +146,6 @@
     "bestPrice": 300,
     "size": "500 ml",
     "detail": "Natural Ticks Cleaner, embodying Peelz Factory's vision \"Restore Nature, Secure Future\" and aimed at \"Eliminate Ticks, Protect Your Pets!\", is a 100% non-toxic and natural formulation enriched with Neem, Haldi, and Herbs, powered by Advanced Bioenzyme Technology.",
-    "ingredients": [
-        "Neem",
-        "Haldi",
-        "Herbs",
-        "Advanced Bioenzyme Technology"
-    ],
     "whyChoose": [
         "Promotes animal cleanliness contributing to pet health",
         "Antifungal and antibacterial benefits for broader protection",
@@ -215,12 +172,6 @@
     "bestPrice": 250,
     "size": "500 ml",
     "detail": "Natural Ticks Cleaner, embodying Peelz Factory's vision \"Restore Nature, Secure Future\" and aimed at \"Eliminate Ticks, Protect Your Animals!\", is a 100% non-toxic and natural formulation enriched with Neem, Haldi, and Herbs, powered by Advanced Bioenzyme Technology.",
-    "ingredients": [
-        "Neem",
-        "Haldi",
-        "Herbs",
-        "Advanced Bioenzyme Technology"
-    ],
     "whyChoose": [
         "Promotes animal cleanliness contributing to pet health",
         "Antifungal and antibacterial benefits for broader protection",
@@ -247,11 +198,6 @@
     "bestPrice": 250,
     "size": "1 Litre",
     "detail": "Natural Plant Protector, aligning with Peelz Factory's vision \"Restore Nature, Secure Future\" and motto \"Naturally Fight Pests, Protect Your Plants!\", is a 100% non-toxic and natural solution harnessing the power of Neem and other herbal ingredients to safeguard plants.",
-    "ingredients": [
-        "Neem",
-        "Herbal Ingredients",
-        "Advanced Bioenzyme Technology"
-    ],
     "whyChoose": [
         "Protects plants from harmful pests for healthier growth",
         "Antifungal and antibacterial benefits for comprehensive plant protection",
@@ -280,14 +226,6 @@
     "bestPrice": 75,
     "size": "100 ml",
     "detail": "This natural Lemon fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Neutralizes odors",
       "Purifies indoor air",
@@ -313,14 +251,6 @@
     "bestPrice": 75,
     "size": "100 ml",
     "detail": "This natural Mogra fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Neutralizes odors",
       "Purifies indoor air",
@@ -346,14 +276,6 @@
     "bestPrice": 75,
     "size": "100 ml",
     "detail": "This natural Rose fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Neutralizes odors",
       "Purifies indoor air",
@@ -379,14 +301,6 @@
     "bestPrice": 75,
     "size": "100 ml",
     "detail": "This natural Lavender fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Neutralizes odors",
       "Purifies indoor air",
@@ -412,18 +326,6 @@
     "bestPrice":185 ,
     "size": "500 ml",
     "detail": "Dishwash is a bio-based cleaner using lemon, turmeric, and reetha. It cuts through grease, removes stains, and is gentle on skin. With no synthetic surfactants, it ensures sparkling clean dishes while supporting eco-friendly kitchen practices.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem, Flowers & Aloe Vera Derived)",
-      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance"
-    ],
     "whyChoose": [
       "Cuts through grease",
       "Gentle on skin",
@@ -450,18 +352,6 @@
     "bestPrice": 175,
     "size": "500 ml",
     "detail": "Hand Wash is made with lemon, neem, aloe vera, and turmeric, offering gentle and effective hand cleansing. It kills germs naturally, hydrates the skin, and avoids harsh chemicals—suitable for frequent use and ideal for all skin types.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Aloe Vera Derived)",
-      "Plant-Based Surfactants (Lauryl Glucoside, Decyl Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Botanical Extract (Aloe Vera)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [
       "Kills germs naturally",
       "Hydrates the skin",
@@ -487,17 +377,6 @@
     "bestPrice": 215,
     "size": "1 Litre",
     "detail": "Laundry Wash is an organic detergent crafted from lemon, neem, and reetha. It removes stains and odors while preserving fabric quality. Free from artificial fragrance and surfactants, it's safe for sensitive skin and environmentally responsible.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Soapnut, Neem & Aloe Vera Derived)",
-      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [
       "Removes stains and odors",
       "Preserves fabric quality",
@@ -524,17 +403,6 @@
     "bestPrice": 180,
     "size": "500 ml",
     "detail": "Peelz Natural Puja Cleaner embodying Peelz Factory's vision Restore Nature Secure Future and guided by Clean with Care Shine with Nature is a 100 percent natural plant based cleaning solution powered by Bio Enzyme Technology. Specially formulated for brass and copper idols utensils and puja items it gently lifts tarnish oil stains and deep seated dirt while preserving the divine lustre of your sacred belongings safe for you your family and the environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Plant & Flowers Derived)",
-      "Plant-Based Surfactants (Decyl Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [],
     "howToUse": [
       "Brass & Copper Idols / Utensils: Apply directly onto the surface or a soft sponge, gently rub to lift tarnish and oil stains, leave for 2-3 minutes for deep dirt or spot.",
@@ -555,17 +423,6 @@
     "bestPrice": 200,
     "size": "1 Litre",
     "detail": "Peelz Natural Tile Cleaner embodying Peelz Factory's vision Restore Nature Secure Future and guided by Clean Tiles Naturally Shine Every Day is a 100 percent natural plant based cleaning solution powered by Bio Enzyme Technology. Specially formulated to dissolve soap scum limescale and tough grime from wall tiles bathroom fittings and floor grout it delivers a deep clean while remaining safe for your family your surfaces and the environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Plant & Flower Derived)",
-      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [],
     "howToUse": [
       "Direct Spray / Heavy Stains & Hard Water: Spray or apply directly onto wall tiles, bathroom fittings, or floor grout. Let it sit for 1–3 minutes to dissolve soap scum and limescale. Scrub gently with a soft brush or sponge, rinse with water, and wipe dry with a clean cloth.",
@@ -586,16 +443,6 @@
     "bestPrice": 95,
     "size": "500 ml",
     "detail": "Peelz Natural Tough Stain Cleaner, embodying Peelz Factory's vision Restore Nature Secure Future and guided by Tough on Stains Gentle on Nature, is a 100% natural plant-based cleaning solution powered by Bio-Enzyme Technology. Specially formulated to tackle tough stains grease soap scum and hard water marks it breaks down stubborn buildup effectively while remaining safe for your family your surfaces and the environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Plant & Flower Derived)",
-      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [],
     "howToUse": [
       "Direct Application: Spray or pour directly onto tough stains, grease, soap scum, or hard water marks.",
@@ -616,17 +463,6 @@
     "bestPrice": 120,
     "size": "1 Litre",
     "detail": "Peelz Factory's Natural mogra Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -652,17 +488,6 @@
     "bestPrice": 120,
     "size": "1 Litre",
     "detail": "Peelz Factory's Natural Lemon Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -688,17 +513,6 @@
     "bestPrice": 120,
     "size": "1 Litre",
     "detail": "Peelz Factory's Natural Sandalwood Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Sandalwood Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -724,13 +538,6 @@
     "bestPrice": 200,
     "size": "1 Litre",
     "detail": "Peelz Natural Soil Booster is a plant-derived, concentrated liquid enriched with Citrus Fruits, Neem, Herbs, and Flowers, powered by Advanced Bioenzyme Technology, designed to restore nature and secure a sustainable future for agriculture, aligning with Peelz Factory's vision \"Restore Nature, Secure Future\".",
-    "ingredients": [
-        "Citrus Fruits",
-        "Neem",
-        "Herbs",
-        "Flowers",
-        "Advanced Bioenzyme Technology"
-    ],
     "whyChoose": [
         "Boosts soil health, promoting growth and increasing yields",
         "Enhances nutrient availability for plants",
@@ -760,14 +567,6 @@
     "bestPrice": 250,
     "size": "5 Kg",
     "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
-    "ingredients": [
-      "Organic Matter & Humus",
-      "Earthworm Castings",
-      "Essential Nutrients (N, P, K)",
-      "Beneficial Microorganisms",
-      "Growth Hormones & Enzymes",
-      "Micro & Macro Minerals"
-    ],
     "whyChoose": [
       "100% Organic & Chemical-Free",
       "Feeds & improves overall soil health",
@@ -799,14 +598,6 @@
     "bestPrice": 450,
     "size": "10 Kg",
     "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
-    "ingredients": [
-      "Organic Matter & Humus",
-      "Earthworm Castings",
-      "Essential Nutrients (N, P, K)",
-      "Beneficial Microorganisms",
-      "Growth Hormones & Enzymes",
-      "Micro & Macro Minerals"
-    ],
     "whyChoose": [
       "100% Organic & Chemical-Free",
       "Feeds & improves overall soil health",
@@ -838,14 +629,6 @@
     "bestPrice": 1500,
     "size": "50 Kg",
     "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
-    "ingredients": [
-      "Organic Matter & Humus",
-      "Earthworm Castings",
-      "Essential Nutrients (N, P, K)",
-      "Beneficial Microorganisms",
-      "Growth Hormones & Enzymes",
-      "Micro & Macro Minerals"
-    ],
     "whyChoose": [
       "100% Organic & Chemical-Free",
       "Feeds & improves overall soil health",
@@ -876,18 +659,6 @@
     "bestPrice": 120,
     "size": "1 Litre",
     "detail": "Dishwash is a bio-based cleaner using lemon, turmeric, and reetha. It cuts through grease, removes stains, and is gentle on skin. With no synthetic surfactants, it ensures sparkling clean dishes while supporting eco-friendly kitchen practices.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem, Flowers & Aloe Vera Derived)",
-      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance"
-    ],
     "whyChoose": [
       "Cuts through grease",
       "Gentle on skin",
@@ -914,18 +685,6 @@
     "bestPrice": 275,
     "size": "1 Litre",
     "detail": "Hand Wash is made with lemon, neem, aloe vera, and turmeric, offering gentle and effective hand cleansing. It kills germs naturally, hydrates the skin, and avoids harsh chemicals—suitable for frequent use and ideal for all skin types.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Aloe Vera Derived)",
-      "Plant-Based Surfactants (Lauryl Glucoside, Decyl Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Botanical Extract (Aloe Vera)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [
       "Kills germs naturally",
       "Hydrates the skin",
@@ -951,17 +710,6 @@
     "bestPrice": 250,
     "size": "1 Litre",
     "detail": "Peelz Natural Puja Cleaner, embodying Peelz Factory's vision Restore Nature, Secure Future and guided by Clean with Care, Shine with Nature!, is a 100% natural, plant-based cleaning solution powered by Bio-Enzyme Technology. Specially formulated for brass and copper idols, utensils, and puja items, it gently lifts tarnish, oil stains, and deep-seated dirt while preserving the divine lustre of your sacred belongings — safe for you, your family, and the environment.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Plant & Flowers Derived)",
-      "Plant-Based Surfactants (Decyl Glucoside, Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Natural Thickener (Xanthan Gum)",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Safe Fragrance"
-    ],
     "whyChoose": [],
     "howToUse": [
       "Brass & Copper Idols / Utensils: Apply directly onto the surface or a soft sponge, gently rub to lift tarnish and oil stains, leave for 2-3 minutes for deep dirt or spot.",
@@ -982,17 +730,6 @@
     "bestPrice": 490,
     "size": "5 Litre",
     "detail": "Peelz Factory's Natural Rose Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -1017,17 +754,6 @@
     "bestPrice": 490,
     "size": "5 Litre",
     "detail": "Peelz Factory's Natural mogra Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -1053,17 +779,6 @@
     "bestPrice": 490,
     "size": "5 Litre",
     "detail": "Peelz Factory's Natural Lemon Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -1089,17 +804,6 @@
     "bestPrice": 490,
     "size": "5 Litre",
     "detail": "Peelz Factory's Natural Sandalwood Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Sandalwood Natural Fragrance, it's safe for homes with babies and pets.",
-    "ingredients": [
-      "Purified Water",
-      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
-      "Plant-Based Surfactant (Coco-Betaine)",
-      "Organic Acid (Citric Acid)",
-      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-      "Vegetable Glycerin",
-      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-      "Food-Grade Colour",
-      "Safe Fragrance (Essential Oil-Based)"
-    ],
     "whyChoose": [
       "Pure & Safe: Eco-friendly & Biodegradable",
       "Multi-Surface: Marble, tiles, granite, wood",
@@ -1125,18 +829,6 @@
     "bestPrice": 175,
     "size": "1 Litre",
     "detail": "Peelz Natural Drainage Cleaner embodying Peelz Factory's vision Restore Nature Secure Future is a plant based formulation powered by Bio Enzyme Technology. It naturally clears tough clogs kills germs and is safe for pipes pets and babies without harsh chemicals or toxic fumes.",
-    "ingredients": [
-        "Purified Water",
-        "Bio-Enzyme Extract",
-        "Plant-Based Surfactant",
-        "Organic Acid",
-        "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-        "Botanical Extract (Aloe Vera)",
-        "Vegetable Glycerin",
-        "Natural Thickener (Xanthan Gum)",
-        "Food-Grade Preservatives",
-        "Safe Fragrance"
-    ],
     "whyChoose": [
         "Naturally sourced and plant based",
         "No harsh chemicals or toxic fumes",
@@ -1164,17 +856,6 @@
     "bestPrice": 75,
     "size": "500 ml",
     "detail": "Peelz Natural All In One Cleaner embodying Peelz Factory's vision Restore Nature Secure Future and guided by One Cleaner Total Care Naturally is a plant based formulation. It is naturally sourced plant based and free from harsh chemicals. It effectively kills germs and is completely baby safe and pet friendly. It safely cleans various surfaces including wood glass metal and delicate items.",
-    "ingredients": [
-        "Purified Water",
-        "Bio-Enzyme Extract",
-        "Plant-Based Surfactant",
-        "Organic Acid",
-        "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
-        "Vegetable Glycerin",
-        "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
-        "Natural Fragrance",
-        "Food-Grade Colour"
-    ],
     "whyChoose": [
         "Naturally sourced and plant based",
         "No harsh chemicals",

@@ -84,7 +84,7 @@ const Home = () => {
   <main className="bg-peelz-offwhite text-peelz-dark">
     <div className="overflow-hidden border-b border-peelz-aqua/60 bg-peelz-dark pt-24 text-white lg:pt-[84px]">
       <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-center gap-2 px-4 py-3 text-center text-sm font-semibold sm:flex-row sm:gap-4 sm:px-6 md:text-base">
-        <span className="max-w-[20rem] leading-6 sm:max-w-none">Add your products to the cart and click Checkout on WhatsApp.</span>
+        <span className="max-w-[20rem] leading-6 sm:max-w-none">Add products to cart, click checkout — it's on its way!</span>
         <Link to="/products" className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-peelz-sage px-4 py-1.5 text-peelz-dark transition hover:bg-peelz-forest motion-safe:animate-pulse">
           
           Order here
@@ -92,7 +92,7 @@ const Home = () => {
       </div>
     </div>
     <div className="mt-4 overflow-hidden border-b border-peelz-forest/60 bg-peelz-sage text-peelz-dark">
-      <div className="flex w-max whitespace-nowrap animate-marquee-reverse">
+      <div className="flex w-max whitespace-nowrap animate-marquee">
         <span className="shrink-0 px-8 py-2.5 text-sm font-semibold md:text-base">
           For bulk and white-label orders, contact us on 99715 06594.
         </span>
