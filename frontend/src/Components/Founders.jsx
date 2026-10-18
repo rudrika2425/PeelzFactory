@@ -1,120 +1,48 @@
-import React from "react";
+import { useState } from "react";
+import members from "./data/team.json";
+import Lightbox from "./Shared/Lightbox";
+import { getTeamImages, handleImageError } from "./utils/imagePaths";
 
 const Founders = () => {
-  const teamMembers = [
-    {
-      id: 1,
-      role: "Co-Founder",
-      name: "Taru Singh",
-      description: `Taru Singh, a dedicated advocate for chemical-free farming, has made significant strides in promoting organic agriculture and environmental sustainability. With an MSc in Zoology (Fisheries) and specialized training in Organic Farming from Holkar University, she combines her academic expertise with a passion for eco-friendly agricultural practices. Since 2018, Taru has been actively involved in sustainable farming, excelling in vermicomposting, crafting organic tonics, and producing natural jaggery. In 2024, she founded Peelz Factory Pvt. Ltd., offering innovative bio-enzyme solutions for agriculture, waste management, and environmental conservation. She also co-founded the Buland Farmers Development Trust and established the Rajpura Sambhal Producer Company Ltd. to empower farmers and uplift rural communities. As the Secretary of BEA and WICCI's Uttar Pradesh State President, Taru is shaping policies to drive positive change in agriculture and sustainability. Her work is an inspiring example of how sustainable practices can transform communities and the environment.`,
-      image: "./images/Taru Singh.png",
-    },
-    {
-      id: 2,
-      role: "Co-Founder",
-      name: "Ashutosh Pratap Singh",
-      description: `Ashutosh Pratap Singh is the Managing Director of APS Farms, Chairman of the Buland Farmer's Development Trust, and CEO of Rajpura Sambhal Producer Co. Ltd. (FPO). A passionate organic farmer, he specializes in vermicomposting, organic tonics, and natural pesticides. After a successful career in sales and marketing across eight states, he transitioned to farming in 2018, focusing on sustainable and chemical-free agriculture. He has successfully cultivated organic sugarcane, wheat, rice, vegetables, and flowers. Recognized for his achievements, Ashutosh has received awards for his organic wheat production and contributions to eco-friendly farming. He is dedicated to empowering farmers through training sessions and community development initiatives, such as promoting sustainable farming practices, chemical-free living, and supporting local farming communities. His active participation in agricultural conventions and efforts to promote innovative farming techniques make him a notable figure in organic farming and sustainable agriculture.`,
-      image: "./images/Ashutosh Pratap Singh.png",
-    },
-    {
-      id: 3,
-      role: "Advisor",
-      name: "Surendra Pal Singh",
-      description: `Surendra Pal Singh, BVSc from Mathura and retired Joint Director from the Uttarakhand government, managed government gaushalas during his career. He now serves as an advisor at Peelz Factory, offering expertise in sustainable practices and bioenzyme solutions. His extensive background in veterinary science supports the company's mission of transforming kitchen waste into eco-friendly products.`,
-      image: "./images/Surendra Pal Singh.png",
-    },
-    {
-      id: 4,
-      role: "Advisor",
-      name: "Chhavi Singh",
-      description: `M.Sc. Gold medalist from Horticulture, Rajasthan Agriculture University, Bikaner, works with the NGO on sustainable agricultural practices and innovative projects.`,
-      image: "./images/Chhavi Singh.png",
-    },
-    {
-      id: 5,
-      role: "Tech-Support",
-      name: "Rudrika Raghav",
-      description: `Tech-savvy intern pursuing B.Tech in Computer Science from GLA University , managing design, website development, and social media strategies.`,
-      image: "./images/Rudrika Raghav.png",
-    },
-    {
-      id: 6,
-      role: "Advisor",
-      name: "Tulika Singh",
-      description: `Retd. Wing Commander with 14 years of experience in the Indian Air Force and 2 years in Airtel. A B.Tech graduate in Electrical and Electronics Engineering, bringing leadership and management expertise.`,
-      image: "./images/Tulika Singh.png",
-    },
-  ];
+  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="bg-white min-h-screen py-20">
-      <div className="container mx-auto px-6 lg:px-16 xl:px-24">
-        {/* Header Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-            Our Team
-          </h1>
-          <div className="w-24 h-1 bg-green-600 mx-auto rounded-full"></div>
-          <p className="text-gray-600 text-lg mt-6 max-w-2xl mx-auto">
-            Meet the passionate individuals driving Peelz Factory's mission to transform 
-            organic waste into sustainable solutions for a greener future.
-          </p>
-        </div>
-
-        {/* Team Members */}
-        <div className="space-y-16">
-          {teamMembers.map((member, index) => (
-            <div
+    <main className="min-h-screen bg-peelz-offwhite px-6 py-28 text-peelz-dark md:px-8 lg:py-36">
+      <header className="mx-auto mb-16 max-w-[1200px]">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-peelz-forest">People behind the work</p>
+        <h1 className="mt-3 text-4xl font-bold md:text-5xl">Our team</h1>
+        <div className="mt-6 h-1 w-20 rounded-full bg-peelz-aqua" />
+        <p className="mt-6 max-w-5xl text-lg leading-[1.7] text-peelz-dark/75">
+          Meet the passionate individuals driving Peelz Factory&apos;s mission to transform organic waste into sustainable solutions.
+        </p>
+      </header>
+      <div className="mx-auto max-w-[1200px] space-y-8">
+        {members.map((member, index) => {
+          const images = getTeamImages(member.id);
+          return (
+            <article
               key={member.id}
-              className={`flex flex-col lg:flex-row items-center gap-8 lg:gap-12 ${
-                index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-              }`}
+              className={`flex flex-col items-center gap-8 rounded-xl border border-peelz-aqua/40 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-peelz-forest hover:shadow-md md:p-8 lg:flex-row lg:gap-12 ${index % 2 ? "lg:flex-row-reverse" : ""}`}
             >
-              {/* Image Container */}
-              <div className="flex-shrink-0 group">
-                <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-72 h-72 lg:w-80 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-              </div>
-
-              {/* Content Container */}
+              <img
+                src={images[0]}
+                onError={handleImageError}
+                onClick={(event) => { event.stopPropagation(); setSelectedImage(images[0]); }}
+                alt={member.name}
+                className="aspect-square h-auto w-full max-w-xs cursor-pointer rounded-xl object-cover shadow-md transition-transform hover:scale-105"
+              />
               <div className="flex-1 text-center lg:text-left">
-                <div className="mb-4">
-                  <span className="inline-block px-4 py-2 bg-green-100 text-green-700 text-sm font-semibold rounded-full mb-3">
-                    {member.role}
-                  </span>
-                  <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
-                    {member.name}
-                  </h2>
-                  <div className="w-16 h-0.5 bg-green-600 mx-auto lg:mx-0 rounded-full"></div>
-                </div>
-                <p className="text-gray-700 text-lg leading-relaxed">
-                  {member.description}
-                </p>
+                <span className="mb-3 inline-block rounded-full bg-peelz-sage px-4 py-2 text-sm font-semibold text-peelz-dark">{member.role}</span>
+                <h2 className="mb-2 text-3xl font-bold">{member.name}</h2>
+                <div className="mx-auto mb-4 h-0.5 w-16 rounded-full bg-peelz-aqua lg:mx-0" />
+                <p className="text-lg leading-[1.7] text-peelz-dark/75">{member.detail}</p>
               </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Bottom CTA Section */}
-        <div className="text-center mt-20 p-8 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Join Our Mission
-          </h3>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Together, we're building a cleaner, greener future through innovative 
-            sustainable solutions and community empowerment.
-          </p>
-  
-          
-        </div>
+            </article>
+          );
+        })}
       </div>
-    </div>
+      <Lightbox image={selectedImage} alt="Team member preview" onClose={() => setSelectedImage(null)} />
+    </main>
   );
 };
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules"; // Removed Navigation
 import "swiper/css";
@@ -17,7 +16,7 @@ const CollaborationSlider = () => {
   ];
 
   return (
-    <div className="w-screen h-[30vh] -mb-14 mt-7 flex justify-center items-center -ml-20"> 
+    <div className="mx-auto flex aspect-square w-full max-w-xl items-center justify-center"> 
       <Swiper
         modules={[Pagination, Autoplay]} 
         spaceBetween={0}
@@ -25,14 +24,14 @@ const CollaborationSlider = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         loop={true}
-        className="h-full"
+        className="h-full w-full"
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} className="flex items-center justify-center">
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-contain"
+              className="aspect-square h-full w-full object-contain"
             />
           </SwiperSlide>
         ))}

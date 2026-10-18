@@ -1,57 +1,38 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import gallery from "./data/gallery.json";
+import Lightbox from "./Shared/Lightbox";
+import { getGalleryImages, handleImageError } from "./utils/imagePaths";
 
 const Gallery = () => {
-  const [selectedImage, setSelectedImage] = useState(null); // State to store clicked image
-
-  const bgColors = [
-    "bg-red-400", "bg-green-400", "bg-blue-400", "bg-yellow-400",
-    "bg-purple-400", "bg-pink-400", "bg-teal-400", "bg-indigo-400",
-  ];
-
-  // Generate image paths dynamically
-  const images = Array.from({ length: 47 }, (_, i) =>
-     `/images/g-${i + 1}.jpg`
-  );
-
-  // Map images to cards with background color
-  const cards = images.map((image, index) => ({
-    image,
-    bgColor: bgColors[index % bgColors.length],
-  }));
+  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="bg-gray-100 m-10 p-2">
-      <h3 className="text-6xl font-bold text-center mt-20 mb-8">Photo Gallery</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 p-4">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className={`p-1 rounded-lg shadow-md ${card.bgColor} overflow-hidden w-full cursor-pointer`}
-            onClick={() => setSelectedImage(card.image)}
-          >
-            <img
-              src={card.image}
-              alt={`Media ${index + 1}`}
-              className="w-full h-36 object-cover rounded-lg"
-            />
-          </div>
-        ))}
-      </div>
-
-      {/* Modal for Full Image Preview */}
-      {selectedImage && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-          onClick={() => setSelectedImage(null)}
-        >
-          <img
-            src={selectedImage}
-            alt="Preview"
-            className="max-w-full max-h-screen object-contain bg-white p-4"
-          />
-        </div>
-      )}
-    </div>
+    <main className="m-5 bg-gray-100 p-2">
+      <h1 className="mb-8 mt-20 text-center text-5xl font-bold text-peelz-dark">Our Initiatives</h1>
+      {gallery.map((division) => {
+        const images = getGalleryImages(division.id);
+        return (
+          <section key={division.id} className="mb-12 rounded-xl bg-white p-5 shadow-md">
+            <h2 className="text-3xl font-bold text-peelz-dark">{division.division}</h2>
+            <h3 className="mt-2 text-xl text-gray-700">{division.subHeading}</h3>
+            <p className="mt-3 text-gray-600">{division.description}</p>
+            <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5">
+              {images.map((image, index) => (
+                <img
+                  key={image}
+                  src={image}
+                  onError={handleImageError}
+                  onClick={(event) => { event.stopPropagation(); setSelectedImage(image); }}
+                  alt={`${division.division} image ${index + 1}`}
+                  className="aspect-square w-full cursor-pointer rounded-xl object-cover"
+                />
+              ))}
+            </div>
+          </section>
+        );
+      })}
+      <Lightbox image={selectedImage} alt="Gallery preview" onClose={() => setSelectedImage(null)} />
+    </main>
   );
 };
 

@@ -1,0 +1,1196 @@
+[
+  {
+    "id": 1,
+    "name": "Natural Vermi Compost",
+    "brand": "Peelz Factory",
+    "category": "Agriculture",
+    "mrp": 85,
+    "bestPrice": 50,
+    "size": "1 Kg",
+    "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
+    "ingredients": [
+      "Organic Matter & Humus",
+      "Earthworm Castings",
+      "Essential Nutrients (N, P, K)",
+      "Beneficial Microorganisms",
+      "Growth Hormones & Enzymes",
+      "Micro & Macro Minerals"
+    ],
+    "whyChoose": [
+      "100% Organic & Chemical-Free",
+      "Feeds & improves overall soil health",
+      "Boosts microbial activity",
+      "Enhances soil fertility and water retention",
+      "Promotes rapid plant growth",
+      "Suppresses plant diseases",
+      "Safe for plants, soil, and humans",
+      "Provides long-term soil fertility (unlike chemical fertilizers)"
+    ],
+    "howToUse": [
+      "Mix with soil before planting.",
+      "Apply around the base of plants.",
+      "Water thoroughly after application."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Use only as directed and keep out of reach of children.",
+      "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+  {
+    "id": 2,
+    "name": "Natural Vermi Tea",
+    "category": "Agriculture",
+    "mrp": 200,
+    "bestPrice": 125,
+    "size": "1 Litre",
+    "detail": "Natural Vermi Tea, embodying Peelz Factory's ethos \"Restore Nature, Secure Future\" and guided by \"Feed the Soil, Nourish Your Plants!\", is a 100% non-toxic and natural product derived from aerated extract of vermicompost, rich in beneficial microbes and organic nutrients.",
+    "ingredients": [
+        "Aerated Vermicompost Extract",
+        "Beneficial Microbes",
+        "Organic Nutrients"
+    ],
+    "whyChoose": [
+        "Boosts soil fertility",
+        "Antifungal and antibacterial benefits",
+        "Enhances root and plant growth for healthier plants",
+        "Promotes beneficial microbes in the soil",
+        "Natural pest and disease control measure",
+        "Holistic solution for nurturing plants and soil ecosystem"
+    ],
+    "howToUse": [
+        "Shake well. Dilute 100ml of Peelz Vermi Tea in 1L of water.",
+        "Apply as foliar spray or soil drench for effective nourishment.",
+        "Use weekly or as needed for best results in plant health and soil vitality."
+    ],
+    "storage": "Store Peelz Factory's Natural Vermi Tea in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "Use only as directed and keep out of reach of children.",
+        "Avoid contact with eyes; wash hands after handling."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Natural Animal Shield",
+    "category": "Animal Care",
+    "mrp": 300,
+    "bestPrice": 150,
+    "size": "500 ml",
+    "detail": "Natural Animal Shield, aligning with Peelz Factory's commitment \"Restore Nature, Secure Future\" and focused on \"Ensure Pet Hygiene, Shed Cleanliness, and Odor-Free Living!\", is a 100% non-toxic and natural formulation enriched with Lemon, Flowers, Neem, and Herbs, powered by Advanced Bioenzyme Technology.",
+    "ingredients": [
+        "Lemon",
+        "Flowers",
+        "Neem",
+        "Herbs",
+        "Advanced Bioenzyme Technology"
+    ],
+    "whyChoose": [
+        "Promotes animal cleanliness for healthier pets",
+        "Antifungal and antibacterial benefits for protection",
+        "Harnesses the power of Neem and Lemon for effective hygiene",
+        "Protects against infections ensuring animal well-being",
+        "Safe for all animals — a gentle and effective solution for pet care and shed hygiene"
+    ],
+    "howToUse": [
+        "Shake well before use.",
+        "Mix 15-20ml of Peelz Animal Shield in 5 liters of water.",
+        "Use the solution to bathe your animal and spray it in their sheds for cleanliness and freshness."
+    ],
+    "storage": "Store Peelz Factory's Natural Animal Shield in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "For external use only unless the product instructions state otherwise.",
+        "Keep away from eyes and sensitive areas; discontinue use if irritation occurs."
+    ]
+},
+  {
+    "id": 4,
+    "name": "Natural Rose Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 185,
+    "bestPrice": 120,
+    "size": "1 Litre",
+    "detail": "Peelz Factory's Natural Rose Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Rose Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Natural Growth Booster",
+    "category": "Agriculture",
+    "mrp": 400,
+    "bestPrice": 200,
+    "size": "1 Litre",
+    "detail": "Natural Growth Booster is a product enriched with Fruits, Flowers, and Herbs, powered by Advanced Bioenzyme Technology, aimed at stimulating growth and maximizing crop yields, aligning with Peelz Factory's motto \"Restore Nature, Secure Future\".",
+    "ingredients": [
+        "Fruits",
+        "Flowers",
+        "Herbs",
+        "Advanced Bioenzyme Technology"
+    ],
+    "whyChoose": [
+        "Boosts flowering and fruiting for better crop outcomes",
+        "Improves nutrient absorption by plants",
+        "Increases crop yield for enhanced productivity",
+        "Eco-friendly and non-toxic for safe agricultural use",
+        "Enhances photosynthesis efficiency for healthier plants",
+        "Improves crop quality and appearance"
+    ],
+    "howToUse": [
+        "Shake well before use.",
+        "Mix 1L of Peelz Growth Booster with 100L of water and let it sit for 12 hours.",
+        "Spray directly onto crops for optimal growth."
+    ],
+    "storage": "Store Peelz Factory's Natural Growth Booster in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "Use only as directed and keep out of reach of children.",
+        "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+  {
+    "id": 6,
+    "name": "Natural Ticks Cleaner (Pets)",
+    "category": "Animal Care",
+    "mrp": 600,
+    "bestPrice": 300,
+    "size": "500 ml",
+    "detail": "Natural Ticks Cleaner, embodying Peelz Factory's vision \"Restore Nature, Secure Future\" and aimed at \"Eliminate Ticks, Protect Your Pets!\", is a 100% non-toxic and natural formulation enriched with Neem, Haldi, and Herbs, powered by Advanced Bioenzyme Technology.",
+    "ingredients": [
+        "Neem",
+        "Haldi",
+        "Herbs",
+        "Advanced Bioenzyme Technology"
+    ],
+    "whyChoose": [
+        "Promotes animal cleanliness contributing to pet health",
+        "Antifungal and antibacterial benefits for broader protection",
+        "Leverages the power of Neem for effective tick management",
+        "Protects against infections ensuring animal well-being",
+        "Safe for all animals — a reliable solution for tick control and pet care"
+    ],
+    "howToUse": [
+        "Shake well before use. Mix 20ml of Peelz Ticks Cleaner with 1L of water.",
+        "Apply to affected areas of the animal, then spray the shed, focusing on corners for effective tick elimination and environmental cleanliness."
+    ],
+    "storage": "Store Peelz Factory's Natural Ticks Cleaner in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "For external use only unless the product instructions state otherwise.",
+        "Keep away from eyes and sensitive areas; discontinue use if irritation occurs."
+    ]
+},
+  {
+    "id": 7,
+    "name": "Natural Ticks Cleaner (Animals)",
+    "category": "Animal Care",
+    "mrp": 500,
+    "bestPrice": 250,
+    "size": "500 ml",
+    "detail": "Natural Ticks Cleaner, embodying Peelz Factory's vision \"Restore Nature, Secure Future\" and aimed at \"Eliminate Ticks, Protect Your Animals!\", is a 100% non-toxic and natural formulation enriched with Neem, Haldi, and Herbs, powered by Advanced Bioenzyme Technology.",
+    "ingredients": [
+        "Neem",
+        "Haldi",
+        "Herbs",
+        "Advanced Bioenzyme Technology"
+    ],
+    "whyChoose": [
+        "Promotes animal cleanliness contributing to pet health",
+        "Antifungal and antibacterial benefits for broader protection",
+        "Leverages the power of Neem for effective tick management",
+        "Protects against infections ensuring animal well-being",
+        "Safe for all animals — a reliable solution for tick control and animal care"
+    ],
+    "howToUse": [
+        "Shake well before use. Mix 50ml of Peelz Ticks Cleaner with 1L of water.",
+        "Apply to affected areas of the animal, then spray the shed, focusing on corners for effective tick elimination and environmental cleanliness."
+    ],
+    "storage": "Store Peelz Factory's Natural Ticks Cleaner in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "For external use only unless the product instructions state otherwise.",
+        "Keep away from eyes and sensitive areas; discontinue use if irritation occurs."
+    ]
+},
+  {
+    "id": 8,
+    "name": "Natural Plant Protector",
+    "category": "Agriculture",
+    "mrp": 500,
+    "bestPrice": 250,
+    "size": "1 Litre",
+    "detail": "Natural Plant Protector, aligning with Peelz Factory's vision \"Restore Nature, Secure Future\" and motto \"Naturally Fight Pests, Protect Your Plants!\", is a 100% non-toxic and natural solution harnessing the power of Neem and other herbal ingredients to safeguard plants.",
+    "ingredients": [
+        "Neem",
+        "Herbal Ingredients",
+        "Advanced Bioenzyme Technology"
+    ],
+    "whyChoose": [
+        "Protects plants from harmful pests for healthier growth",
+        "Antifungal and antibacterial benefits for comprehensive plant protection",
+        "Strengthens plant immunity for better resilience against diseases and pests",
+        "Safe for soil, water, and beneficial insects — eco-friendly use",
+        "Leverages the potent natural properties of Neem for effective and sustainable pest management"
+    ],
+    "howToUse": [
+        "Shake well before use. Mix 50ml of Peelz Plant Protector with 1L water.",
+        "For Farms: Spray on leaves, stems & soil for comprehensive protection.",
+        "For Gardens: Spray on leaves, stems & soil of garden plants for comprehensive protection.",
+        "Use in morning or evening for optimal effectiveness."
+    ],
+    "storage": "Store Peelz Factory's Natural Plant Protector in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "Use only as directed and keep out of reach of children.",
+        "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+  {
+    "id": 9,
+    "name": "Lemon Air Freshner",
+    "category": "Home Care",
+    "mrp": 150,
+    "bestPrice": 75,
+    "size": "100 ml",
+    "detail": "This natural Lemon fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Neutralizes odors",
+      "Purifies indoor air",
+      "Safe for kids and pets"
+    ],
+    "howToUse": [
+      "Shake Well: Gently shake the bottle before each use.",
+      "Spray: Hold upright and spray 2–3 times into the center of the room or toward corners away from faces and eyes.",
+      "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Mogra Air Freshner",
+    "category": "Home Care",
+    "mrp": 150,
+    "bestPrice": 75,
+    "size": "100 ml",
+    "detail": "This natural Mogra fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Neutralizes odors",
+      "Purifies indoor air",
+      "Safe for kids and pets"
+    ],
+    "howToUse": [
+      "Shake Well: Gently shake the bottle before each use.",
+      "Spray: Hold upright and spray 2–3 times into the center of the room or toward corners away from faces and eyes.",
+      "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Rose Air Freshner",
+    "category": "Home Care",
+    "mrp": 150,
+    "bestPrice": 75,
+    "size": "100 ml",
+    "detail": "This natural Rose fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Neutralizes odors",
+      "Purifies indoor air",
+      "Safe for kids and pets"
+    ],
+    "howToUse": [
+      "Shake Well: Gently shake the bottle before each use.",
+      "Spray: Hold upright and spray 2–3 times into the center of the room or toward corners away from faces and eyes.",
+      "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Lavender Air Freshner",
+    "category": "Home Care",
+    "mrp": 150,
+    "bestPrice": 75,
+    "size": "100 ml",
+    "detail": "This natural Lavender fragrance air freshener neutralizes odors and purifies indoor air. It’s chemical-free and safe for kids and pets, making it an ideal choice for eco-conscious consumers who seek a refreshing environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Neutralizes odors",
+      "Purifies indoor air",
+      "Safe for kids and pets"
+    ],
+    "howToUse": [
+      "Shake Well: Gently shake the bottle before each use.",
+      "Spray: Hold upright and spray 2–3 times into the center of the room or toward corners away from faces and eyes.",
+      "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Natural Dishwash",
+    "category": "Home Care",
+    "mrp": 350,
+    "bestPrice":185 ,
+    "size": "500 ml",
+    "detail": "Dishwash is a bio-based cleaner using lemon, turmeric, and reetha. It cuts through grease, removes stains, and is gentle on skin. With no synthetic surfactants, it ensures sparkling clean dishes while supporting eco-friendly kitchen practices.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem, Flowers & Aloe Vera Derived)",
+      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [
+      "Cuts through grease",
+      "Gentle on skin",
+      "No synthetic surfactants"
+    ],
+    "howToUse": [
+      "Dilute: Mix 30-40 ml in a bowl of warm water.",
+      "Scrub: Dip a sponge, scrub gently to remove grease and stains.",
+      "Rinse: Wash thoroughly with water for streak-free, clean dishes.",
+      "For tough grease, apply a few drops directly onto the dish before scrubbing."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Natural Hand Wash",
+    "category": "Home Care",
+    "mrp": 235,
+    "bestPrice": 175,
+    "size": "500 ml",
+    "detail": "Hand Wash is made with lemon, neem, aloe vera, and turmeric, offering gentle and effective hand cleansing. It kills germs naturally, hydrates the skin, and avoids harsh chemicals—suitable for frequent use and ideal for all skin types.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Aloe Vera Derived)",
+      "Plant-Based Surfactants (Lauryl Glucoside, Decyl Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Botanical Extract (Aloe Vera)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [
+      "Kills germs naturally",
+      "Hydrates the skin",
+      "Suitable for all skin types"
+    ],
+    "howToUse": [
+      "Pump: Dispense 1–2 squirts onto wet hands.",
+      "Lather: Rub hands together, massaging palms, back of hands, and between fingers for at least 20 seconds.",
+      "Rinse: Rinse thoroughly under clean running water and dry."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Natural Laundry Wash",
+    "category": "Home Care",
+    "mrp": 349,
+    "bestPrice": 215,
+    "size": "1 Litre",
+    "detail": "Laundry Wash is an organic detergent crafted from lemon, neem, and reetha. It removes stains and odors while preserving fabric quality. Free from artificial fragrance and surfactants, it's safe for sensitive skin and environmentally responsible.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Soapnut, Neem & Aloe Vera Derived)",
+      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [
+      "Removes stains and odors",
+      "Preserves fabric quality",
+      "Safe for sensitive skin"
+    ],
+    "howToUse": [
+      "Bucket / Hand Wash: Pour 30 ml into a bucket of water. Soak clothes for 15–20 minutes, gently rub, and rinse well.",
+      "Washing Machine (Front & Top Load, Normal Load): Add 45 ml directly into the detergent compartment or drum.",
+      "Washing Machine (Heavily Soiled Load): Use 60 ml.",
+      "Tough Stains: Apply a few drops directly onto the collar, cuffs, or stubborn spots 10 minutes prior to washing."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Natural Puja Cleaner",
+    "category": "Home Care",
+    "mrp": 299,
+    "bestPrice": 180,
+    "size": "500 ml",
+    "detail": "Peelz Natural Puja Cleaner embodying Peelz Factory's vision Restore Nature Secure Future and guided by Clean with Care Shine with Nature is a 100 percent natural plant based cleaning solution powered by Bio Enzyme Technology. Specially formulated for brass and copper idols utensils and puja items it gently lifts tarnish oil stains and deep seated dirt while preserving the divine lustre of your sacred belongings safe for you your family and the environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Plant & Flowers Derived)",
+      "Plant-Based Surfactants (Decyl Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [],
+    "howToUse": [
+      "Brass & Copper Idols / Utensils: Apply directly onto the surface or a soft sponge, gently rub to lift tarnish and oil stains, leave for 2-3 minutes for deep dirt or spot.",
+      "Rinse & Dry: Wash thoroughly with clean water and wipe immediately with a dry cloth for a bright, spot-free shine."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Natural Tile Cleaner",
+    "category": "Home Care",
+    "mrp": 375,
+    "bestPrice": 200,
+    "size": "1 Litre",
+    "detail": "Peelz Natural Tile Cleaner embodying Peelz Factory's vision Restore Nature Secure Future and guided by Clean Tiles Naturally Shine Every Day is a 100 percent natural plant based cleaning solution powered by Bio Enzyme Technology. Specially formulated to dissolve soap scum limescale and tough grime from wall tiles bathroom fittings and floor grout it delivers a deep clean while remaining safe for your family your surfaces and the environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Plant & Flower Derived)",
+      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [],
+    "howToUse": [
+      "Direct Spray / Heavy Stains & Hard Water: Spray or apply directly onto wall tiles, bathroom fittings, or floor grout. Let it sit for 1–3 minutes to dissolve soap scum and limescale. Scrub gently with a soft brush or sponge, rinse with water, and wipe dry with a clean cloth.",
+      "Regular Floor Mopping: Dilute 30–60 ml in half a bucket of water (approx. 4 litres) and mop as usual. No rinsing required."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Natural Tough Stain Cleaner",
+    "category": "Home Care",
+    "mrp": 199,
+    "bestPrice": 95,
+    "size": "500 ml",
+    "detail": "Peelz Natural Tough Stain Cleaner, embodying Peelz Factory's vision Restore Nature Secure Future and guided by Tough on Stains Gentle on Nature, is a 100% natural plant-based cleaning solution powered by Bio-Enzyme Technology. Specially formulated to tackle tough stains grease soap scum and hard water marks it breaks down stubborn buildup effectively while remaining safe for your family your surfaces and the environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Plant & Flower Derived)",
+      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [],
+    "howToUse": [
+      "Direct Application: Spray or pour directly onto tough stains, grease, soap scum, or hard water marks.",
+      "Wait & Penetrate: Let the solution sit for 3–5 minutes to break down stubborn buildup.",
+      "Scrub & Rinse: Scrub lightly with a sponge or brush, then rinse thoroughly with clean water or wipe clean with a wet cloth. (For extra stubborn or old stains, repeat the process or let it sit for up to 10 minutes before scrubbing.)"
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },{
+    "id": 19,
+    "name": "Natural Mogra Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 185,
+    "bestPrice": 120,
+    "size": "1 Litre",
+    "detail": "Peelz Factory's Natural mogra Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Mogra Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Natural Lemon Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 185,
+    "bestPrice": 120,
+    "size": "1 Litre",
+    "detail": "Peelz Factory's Natural Lemon Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Lemon Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Natural Sandalwood Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 185,
+    "bestPrice": 120,
+    "size": "1 Litre",
+    "detail": "Peelz Factory's Natural Sandalwood Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Sandalwood Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Sandalwood Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  }
+  ,{
+    "id": 22,
+    "name": "Natural Soil Booster",
+    "category": "Agriculture",
+    "mrp": 400,
+    "bestPrice": 200,
+    "size": "1 Litre",
+    "detail": "Peelz Natural Soil Booster is a plant-derived, concentrated liquid enriched with Citrus Fruits, Neem, Herbs, and Flowers, powered by Advanced Bioenzyme Technology, designed to restore nature and secure a sustainable future for agriculture, aligning with Peelz Factory's vision \"Restore Nature, Secure Future\".",
+    "ingredients": [
+        "Citrus Fruits",
+        "Neem",
+        "Herbs",
+        "Flowers",
+        "Advanced Bioenzyme Technology"
+    ],
+    "whyChoose": [
+        "Boosts soil health, promoting growth and increasing yields",
+        "Enhances nutrient availability for plants",
+        "Improves soil fertility for better crop performance",
+        "Eco-friendly and non-toxic ensuring safe use",
+        "Retains moisture effectively in the soil",
+        "Increases crop yield leading to better agricultural outcomes"
+    ],
+    "howToUse": [
+        "Shake well before use.",
+        "Mix 1L of Peelz Soil Booster with 200L of water and let it sit for 12 hours.",
+        "Add it to your irrigation channel or apply it to crops using drip irrigation."
+    ],
+    "storage": "Store Peelz Factory's Natural Soil Booster in an airtight bottle, away from direct sunlight.",
+    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
+    "precaution": [
+        "Use only as directed and keep out of reach of children.",
+        "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+  {
+    "id": 23,
+    "name": "Natural Vermi Compost",
+    "brand": "Peelz Factory",
+    "category": "Agriculture",
+    "mrp": 400,
+    "bestPrice": 250,
+    "size": "5 Kg",
+    "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
+    "ingredients": [
+      "Organic Matter & Humus",
+      "Earthworm Castings",
+      "Essential Nutrients (N, P, K)",
+      "Beneficial Microorganisms",
+      "Growth Hormones & Enzymes",
+      "Micro & Macro Minerals"
+    ],
+    "whyChoose": [
+      "100% Organic & Chemical-Free",
+      "Feeds & improves overall soil health",
+      "Boosts microbial activity",
+      "Enhances soil fertility and water retention",
+      "Promotes rapid plant growth",
+      "Suppresses plant diseases",
+      "Safe for plants, soil, and humans",
+      "Provides long-term soil fertility (unlike chemical fertilizers)"
+    ],
+    "howToUse": [
+      "Mix with soil before planting.",
+      "Apply around the base of plants.",
+      "Water thoroughly after application."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Use only as directed and keep out of reach of children.",
+      "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+{
+    "id": 24,
+    "name": "Natural Vermi Compost",
+    "brand": "Peelz Factory",
+    "category": "Agriculture",
+    "mrp": 650,
+    "bestPrice": 450,
+    "size": "10 Kg",
+    "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
+    "ingredients": [
+      "Organic Matter & Humus",
+      "Earthworm Castings",
+      "Essential Nutrients (N, P, K)",
+      "Beneficial Microorganisms",
+      "Growth Hormones & Enzymes",
+      "Micro & Macro Minerals"
+    ],
+    "whyChoose": [
+      "100% Organic & Chemical-Free",
+      "Feeds & improves overall soil health",
+      "Boosts microbial activity",
+      "Enhances soil fertility and water retention",
+      "Promotes rapid plant growth",
+      "Suppresses plant diseases",
+      "Safe for plants, soil, and humans",
+      "Provides long-term soil fertility (unlike chemical fertilizers)"
+    ],
+    "howToUse": [
+      "Mix with soil before planting.",
+      "Apply around the base of plants.",
+      "Water thoroughly after application."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Use only as directed and keep out of reach of children.",
+      "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+{
+    "id": 25,
+    "name": "Natural Vermi Compost",
+    "brand": "Peelz Factory",
+    "category": "Agriculture",
+    "mrp": 3000,
+    "bestPrice": 1500,
+    "size": "50 Kg",
+    "detail": "Natural Vermicompost is a 100% organic, chemical-free fertilizer produced by earthworms breaking down organic matter. Unlike chemical fertilizers that feed the plant directly and degrade soil over time, this vermicompost feeds and improves soil health by boosting microbial activity. It is rich in essential nutrients (N, P, K), micro & macro minerals, and growth hormones, making it safe for plants, soil, and humans while ensuring long-term soil fertility.",
+    "ingredients": [
+      "Organic Matter & Humus",
+      "Earthworm Castings",
+      "Essential Nutrients (N, P, K)",
+      "Beneficial Microorganisms",
+      "Growth Hormones & Enzymes",
+      "Micro & Macro Minerals"
+    ],
+    "whyChoose": [
+      "100% Organic & Chemical-Free",
+      "Feeds & improves overall soil health",
+      "Boosts microbial activity",
+      "Enhances soil fertility and water retention",
+      "Promotes rapid plant growth",
+      "Suppresses plant diseases",
+      "Safe for plants, soil, and humans",
+      "Provides long-term soil fertility (unlike chemical fertilizers)"
+    ],
+    "howToUse": [
+      "Mix with soil before planting.",
+      "Apply around the base of plants.",
+      "Water thoroughly after application."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Use only as directed and keep out of reach of children.",
+      "Avoid contact with eyes; wash hands after handling."
+    ]
+},
+{
+    "id": 26,
+    "name": "Natural Dishwash",
+    "category": "Home Care",
+    "mrp": 199,
+    "bestPrice": 120,
+    "size": "1 Litre",
+    "detail": "Dishwash is a bio-based cleaner using lemon, turmeric, and reetha. It cuts through grease, removes stains, and is gentle on skin. With no synthetic surfactants, it ensures sparkling clean dishes while supporting eco-friendly kitchen practices.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem, Flowers & Aloe Vera Derived)",
+      "Plant-Based Surfactants (Coco-Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [
+      "Cuts through grease",
+      "Gentle on skin",
+      "No synthetic surfactants"
+    ],
+    "howToUse": [
+      "Dilute: Mix 30-40 ml in a bowl of warm water.",
+      "Scrub: Dip a sponge, scrub gently to remove grease and stains.",
+      "Rinse: Wash thoroughly with water for streak-free, clean dishes.",
+      "For tough grease, apply a few drops directly onto the dish before scrubbing."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Natural Hand Wash Refil Pack",
+    "category": "Home Care",
+    "mrp": 450,
+    "bestPrice": 275,
+    "size": "1 Litre",
+    "detail": "Hand Wash is made with lemon, neem, aloe vera, and turmeric, offering gentle and effective hand cleansing. It kills germs naturally, hydrates the skin, and avoids harsh chemicals—suitable for frequent use and ideal for all skin types.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Aloe Vera Derived)",
+      "Plant-Based Surfactants (Lauryl Glucoside, Decyl Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Botanical Extract (Aloe Vera)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [
+      "Kills germs naturally",
+      "Hydrates the skin",
+      "Suitable for all skin types"
+    ],
+    "howToUse": [
+      "Pump: Dispense 1–2 squirts onto wet hands.",
+      "Lather: Rub hands together, massaging palms, back of hands, and between fingers for at least 20 seconds.",
+      "Rinse: Rinse thoroughly under clean running water and dry."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Natural Puja Cleaner",
+    "category": "Home Care",
+    "mrp": 449,
+    "bestPrice": 250,
+    "size": "1 Litre",
+    "detail": "Peelz Natural Puja Cleaner, embodying Peelz Factory's vision Restore Nature, Secure Future and guided by Clean with Care, Shine with Nature!, is a 100% natural, plant-based cleaning solution powered by Bio-Enzyme Technology. Specially formulated for brass and copper idols, utensils, and puja items, it gently lifts tarnish, oil stains, and deep-seated dirt while preserving the divine lustre of your sacred belongings — safe for you, your family, and the environment.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Plant & Flowers Derived)",
+      "Plant-Based Surfactants (Decyl Glucoside, Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Natural Thickener (Xanthan Gum)",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Safe Fragrance"
+    ],
+    "whyChoose": [],
+    "howToUse": [
+      "Brass & Copper Idols / Utensils: Apply directly onto the surface or a soft sponge, gently rub to lift tarnish and oil stains, leave for 2-3 minutes for deep dirt or spot.",
+      "Rinse & Dry: Wash thoroughly with clean water and wipe immediately with a dry cloth for a bright, spot-free shine."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Natural Rose Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 899,
+    "bestPrice": 490,
+    "size": "5 Litre",
+    "detail": "Peelz Factory's Natural Rose Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Rose Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },{
+    "id": 30,
+    "name": "Natural Mogra Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 899,
+    "bestPrice": 490,
+    "size": "5 Litre",
+    "detail": "Peelz Factory's Natural mogra Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Mogra Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Natural Lemon Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 899,
+    "bestPrice": 490,
+    "size": "5 Litre",
+    "detail": "Peelz Factory's Natural Lemon Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Rose Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Lemon Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Natural Sandalwood Floor Cleaner",
+    "category": "Home Care",
+    "mrp": 899,
+    "bestPrice": 490,
+    "size": "5 Litre",
+    "detail": "Peelz Factory's Natural Sandalwood Floor Cleaner harnesses the power of nature with Lemon, Neem, Soapnut and herbs for gentle yet effective cleaning. Enriched with Sandalwood Natural Fragrance, it's safe for homes with babies and pets.",
+    "ingredients": [
+      "Purified Water",
+      "Bio-Enzyme Extract (Citrus, Neem & Flowers Derived)",
+      "Plant-Based Surfactant (Coco-Betaine)",
+      "Organic Acid (Citric Acid)",
+      "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+      "Vegetable Glycerin",
+      "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+      "Food-Grade Colour",
+      "Safe Fragrance (Essential Oil-Based)"
+    ],
+    "whyChoose": [
+      "Pure & Safe: Eco-friendly & Biodegradable",
+      "Multi-Surface: Marble, tiles, granite, wood",
+      "Pest Reducing: Reduces flies & mosquitoes naturally",
+      "Sandalwood Fragrance: Natural luxury"
+    ],
+    "howToUse": [
+      "Daily Mopping: Dilute 30–50 ml in half a bucket of water (approx. 4-5 litres) and mop the floor as usual.",
+      "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
+    "precaution": [
+      "Keep out of reach of children and pets.",
+      "Do not mix with other cleaning products; test on a small area before use."
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Natural Drainage Cleaner",
+    "category": "Home Care",
+    "mrp": 349,
+    "bestPrice": 175,
+    "size": "1 Litre",
+    "detail": "Peelz Natural Drainage Cleaner embodying Peelz Factory's vision Restore Nature Secure Future is a plant based formulation powered by Bio Enzyme Technology. It naturally clears tough clogs kills germs and is safe for pipes pets and babies without harsh chemicals or toxic fumes.",
+    "ingredients": [
+        "Purified Water",
+        "Bio-Enzyme Extract",
+        "Plant-Based Surfactant",
+        "Organic Acid",
+        "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+        "Botanical Extract (Aloe Vera)",
+        "Vegetable Glycerin",
+        "Natural Thickener (Xanthan Gum)",
+        "Food-Grade Preservatives",
+        "Safe Fragrance"
+    ],
+    "whyChoose": [
+        "Naturally sourced and plant based",
+        "No harsh chemicals or toxic fumes",
+        "Kills germs effectively",
+        "Baby safe and pet safe",
+        "Does not damage pipes"
+    ],
+    "howToUse": [
+        "Pour 100-200 ML directly into the drain.",
+        "Leave undisturbed for a while to allow the bio-enzymes to break down the clog.",
+        "Flush with warm water.",
+        "Repeat regularly for maintenance."
+    ],
+    "storage": "Store in a cool place away from direct sunlight.",
+    "Precaution": "For external use only.",
+    "precaution": [
+        "Keep out of reach of children and pets."
+    ]
+},
+{
+    "id": 34,
+    "name": "Natural All In One Cleaner",
+    "category": "Home Care",
+    "mrp": 175,
+    "bestPrice": 75,
+    "size": "500 ml",
+    "detail": "Peelz Natural All In One Cleaner embodying Peelz Factory's vision Restore Nature Secure Future and guided by One Cleaner Total Care Naturally is a plant based formulation. It is naturally sourced plant based and free from harsh chemicals. It effectively kills germs and is completely baby safe and pet friendly. It safely cleans various surfaces including wood glass metal and delicate items.",
+    "ingredients": [
+        "Purified Water",
+        "Bio-Enzyme Extract",
+        "Plant-Based Surfactant",
+        "Organic Acid",
+        "Plant-Derived Organic Salts (Sodium Citrate, Sodium Gluconate)",
+        "Vegetable Glycerin",
+        "Food-Grade Preservatives (Potassium Sorbate, Sodium Benzoate)",
+        "Natural Fragrance",
+        "Food-Grade Colour"
+    ],
+    "whyChoose": [
+        "Naturally sourced and plant based",
+        "No harsh chemicals",
+        "Kills germs effectively",
+        "Baby safe and pet friendly",
+        "One cleaner for total care across multiple surfaces"
+    ],
+    "howToUse": [
+        "Spray / Pour: Apply directly onto the surface.",
+        "Scrub & Wipe: Scrub gently, then wipe clean or rinse."
+    ],
+    "storage": "Store in an airtight bottle away from direct sunlight.",
+    "Precaution": "Natural gas buildup is normal due to the ingredients - just release the pressure gently if needed. For external use only.",
+    "precaution": [
+        "Keep out of reach of children and pets."
+    ]
+}
+  
+]

@@ -1,52 +1,72 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import Lightbox from "./Shared/Lightbox";
+import { handleImageError } from "./utils/imagePaths";
 
-const Media = () => {
-  const [selectedImage, setSelectedImage] = useState(null); // State to store clicked image
+const recognitionFiles = import.meta.glob("../../public/images/recognition/*", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
 
-  const bgColors = [
-    "bg-red-400", "bg-green-400", "bg-blue-400", "bg-yellow-400",
-    "bg-purple-400", "bg-pink-400", "bg-teal-400", "bg-indigo-400",
-  ];
+const getRecognitionTitle = (filePath) => {
+  const fileName = filePath.split("/").pop() || "";
+  return fileName
+    .replace(/\.[^.]+$/, "")
+    .replace(/\s+/g, " ")
+    .replace(/[.]+$/, "")
+    .trim();
+};
 
-  const images = Array.from({ length: 16 }, (_, i) => `/images/c-${i + 1}.png`); // Generate image paths
-  const cards = images.map((image, index) => ({
-    image,
-    bgColor: bgColors[index % bgColors.length],
-  }));
+const recognitionImages = Object.entries(recognitionFiles)
+  .map(([filePath]) => {
+    const fileName = filePath.split("/").pop() || "";
+    return {
+      src: encodeURI(`/images/recognition/${fileName}`),
+      title: getRecognitionTitle(filePath),
+    };
+  })
+  .sort((first, second) => first.title.localeCompare(second.title));
+
+const Recognition = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="bg-gray-100 m-5 p-2">
-      <h3 className="text-6xl font-bold text-center mt-20 mb-8">Our Recognition</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 p-4">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className={`p-1 rounded-lg shadow-md ${card.bgColor} overflow-hidden w-48 cursor-pointer`}
-            onClick={() => setSelectedImage(card.image)}
-          >
-            <img
-              src={card.image}
-              alt={`Media ${index + 1}`}
-              className="w-full h-36 object-cover rounded-lg"
-            />
-          </div>
-        ))}
-      </div>
+    <main className="min-h-screen bg-peelz-offwhite px-6 py-28 text-peelz-dark md:px-8">
+      <div className="mx-auto max-w-[1200px]">
+        <p className="text-center text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">
+          Recognition and milestones
+        </p>
+        <h1 className="mt-3 text-center text-4xl font-bold md:text-5xl">Our Recognition</h1>
+        <p className="mx-auto mt-5 max-w-2xl text-center leading-[1.7] text-peelz-dark/75">
+          A collection of certificates, honours, and milestones that reflect our work with farmers,
+          communities, institutions, and national leaders.
+        </p>
 
-      {selectedImage && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-          onClick={() => setSelectedImage(null)}
-        >
-          <img
-            src={selectedImage}
-            alt="Preview"
-            className="max-w-full max-h-screen object-contain bg-white p-4"
-          />
+        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {recognitionImages.map((item) => (
+            <article key={item.src} className="rounded-xl border border-peelz-aqua/40 bg-peelz-white p-4 shadow-sm">
+              <button
+                type="button"
+                className="block w-full cursor-zoom-in rounded-lg focus:outline-none focus:ring-2 focus:ring-peelz-forest"
+                onClick={() => setSelectedImage(item.src)}
+                aria-label={`View ${item.title}`}
+              >
+                <img
+                  src={item.src}
+                  onError={handleImageError}
+                  alt={item.title}
+                  className="aspect-square w-full rounded-lg object-contain"
+                  loading="lazy"
+                />
+              </button>
+              <h2 className="mt-4 text-lg font-bold leading-snug">{item.title}</h2>
+            </article>
+          ))}
         </div>
-      )}
-    </div>
+      </div>
+      <Lightbox image={selectedImage} alt="Recognition preview" onClose={() => setSelectedImage(null)} />
+    </main>
   );
 };
 
-export default Media;
+export default Recognition;

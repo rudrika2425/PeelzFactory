@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "division": "President's House",
+    "subHeading": "At Home reception at Rashtrapati Bhavan on Republic Day",
+    "description": "At Home, an event hosted at the President's House in New Delhi on 26 January 2026, our work was part of a meaningful national gathering. The occasion connected us with the PMO India, the District Magistrate of Sambhal, and the Commissioner of Moradabad. These engagements reflect the growing recognition of practical, community-led sustainability."
+  },
+  {
+    "id": 2,
+    "division": "Farmer of the Year and District Millionaire Farmer Awards 2025",
+    "subHeading": "Recognising Taru Singh and Ashutosh Pratap Singh at the MFOI Awards",
+    "description": "Taru Singh from Uttar Pradesh was recognised as the winner of the Farmer of the Year Award 2025 at the Millionaire Farmer of India Awards ceremony, organised by Krishi Jagran in association with ICAR. The ceremony took place from 7 to 9 December 2025 at the ICAR-IARI campus in PUSA, New Delhi, and the certificate carries the signatures of M.C. Dominic, Shiny Dominic, and Dr. Rajarshi Roy Burman of ICAR. Ashutosh Pratap Singh from Bambhal, Uttar Pradesh, received the District Millionaire Farmer Award 2025 at the same MFOI Awards event. These honours celebrate their contribution to practical, sustainable, and community-led farming."
+  },
+  {
+    "id": 3,
+    "division": "At Home reception at Rashtrapati Bhavan on Republic Day",
+    "subHeading": "An invitation to the President's House",
+    "description": "Our work earned an invitation to the At Home reception hosted at Rashtrapati Bhavan on Republic Day. The invitation represents a meaningful acknowledgement of practical sustainability work and the growing importance of community-led environmental action. It also reflects the opportunity to engage with institutions and leaders working toward a stronger and more sustainable India."
+  },
+  {
+    "id": 4,
+    "division": "Kisan Samvad 2025",
+    "subHeading": "Representing Uttar Pradesh's natural farmers before Prime Minister Narendra Modi",
+    "description": "In 2025, Peelz Factory represented Uttar Pradesh's natural farmers at Prime Minister Narendra Modi's Kisan Samvad. The engagement brought the experiences of natural and community-led farmers into a national conversation on sustainable agriculture, soil health, responsible resource use, and rural livelihoods. It highlighted how practical farming knowledge, local participation, and nature-positive solutions can contribute to a stronger agricultural future for India."
+  },
+  {
+    "id": 5,
+    "division": "Krishi Goshti at Janapath, Sambhal",
+    "subHeading": "A farming dialogue with Chief Guest Honourable Chief Minister Yogi Adityanath Ji",
+    "description": "The Krishi Goshti at Janapath, Sambhal, brought together farmers, community representatives, and agricultural stakeholders for a meaningful conversation about natural farming, rural development, and practical solutions for stronger livelihoods. The programme was honoured by the presence of the Chief Guest, Honourable Chief Minister Yogi Adityanath Ji. The gathering reflected the importance of farmer-led knowledge, sustainable agriculture, and collective action in building a resilient future for Uttar Pradesh."
+  },
+  {
+    "id": 6,
+    "division": "National Express Feature",
+    "subHeading": "Ashutosh Pratap Singh's work under the Namami Gange Project",
+    "description": "Shri Ashutosh Pratap Singh was featured in the National Express on 25 July 2024, on Page 5, for organising and participating in a one-day workshop under the Namami Gange Project. The feature highlighted his role as a Master Trainer promoting natural farming practices that help protect the river, improve soil health, and encourage responsible agricultural methods. His work connects farmer education and natural inputs with the wider mission of safeguarding the Ganga and supporting sustainable rural communities."
+  },
+  {
+    "id": 7,
+    "division": "Bio Input Resource Centre Visit",
+    "subHeading": "Government of Uttar Pradesh Nodal Officer visits the BRC and Peelz Factory",
+    "description": "A Nodal Officer appointed by the Government of Uttar Pradesh visited the Bio Input Resource Centre and Peelz Factory's manufacturing unit. The visit included an overview of the BRC centre, its role in preparing and promoting useful natural inputs, and the manufacturing processes used at the Peelz Factory unit. The engagement supported knowledge sharing around natural farming, local bio-input production, farmer access, and practical systems for sustainable agriculture."
+  }
+]

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Collaborators = () => {
   // Data array for the collaborators
   const collaborators = [
@@ -49,7 +47,7 @@ const Collaborators = () => {
   ];
 
   return (
-    <body ClassName="overflow-x-hidden">
+    <body className="overflow-x-hidden">
     <div className="bg-gray-100 py-12 justify-center m-14 rounded-lg">
       <div className="ml-28 mr-28">
         
@@ -62,7 +60,7 @@ const Collaborators = () => {
               <img
                 src={collaborator.image}
                 alt={collaborator.name}
-                className="w-64 h-64 object-cover rounded-lg shadow-lg"
+                className="aspect-square w-full max-w-64 object-cover rounded-xl shadow-lg"
               />
             </div>
 

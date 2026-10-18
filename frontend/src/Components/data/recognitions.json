@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Sustainability Leadership Recognition",
+    "organization": "Peelz Factory",
+    "date": "2024",
+    "description": "Recognition for advancing practical, chemical-free solutions for homes, farms, and communities."
+  },
+  {
+    "id": 2,
+    "title": "Innovation in Bio-Enzyme Solutions",
+    "organization": "Peelz Factory",
+    "date": "2024",
+    "description": "Recognition for converting organic waste into useful, biodegradable products."
+  },
+  {
+    "id": 3,
+    "title": "Community Impact Award",
+    "organization": "Peelz Factory",
+    "date": "2024",
+    "description": "Recognition for farmer training, rural entrepreneurship, and sustainable community development."
+  }
+]

@@ -1,364 +1,214 @@
-import React, { useState, useEffect } from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-// Floating Elements Component - Refined
-const FloatingElements = () => {
-  return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-      {/* Organic Shapes */}
-      <div className="absolute top-20 left-10 w-4 h-4 bg-green-200 rounded-full opacity-30 animate-pulse" style={{animationDelay: '0s', animationDuration: '4s'}}></div>
-      <div className="absolute top-40 right-20 w-3 h-3 bg-emerald-300 rounded-full opacity-25" style={{animationDelay: '1s', animationDuration: '5s', animation: 'float 5s ease-in-out infinite'}}></div>
-      <div className="absolute top-60 left-1/4 w-5 h-5 bg-lime-200 rounded-full opacity-20" style={{animationDelay: '2s', animationDuration: '3.5s', animation: 'float 3.5s ease-in-out infinite'}}></div>
-      <div className="absolute bottom-1/3 right-1/3 w-2 h-2 bg-teal-300 rounded-full opacity-35" style={{animationDelay: '2.5s', animationDuration: '4.5s', animation: 'float 4.5s ease-in-out infinite'}}></div>
-      <div className="absolute top-1/3 left-1/3 w-3 h-3 bg-green-300 rounded-full opacity-30" style={{animationDelay: '3.5s', animationDuration: '6s', animation: 'float 6s ease-in-out infinite'}}></div>
-      
-      {/* Geometric Elements */}
-      <div className="absolute top-32 right-1/3 w-8 h-8 border border-green-300 rounded-full opacity-20 animate-spin" style={{animationDelay: '0.5s', animationDuration: '20s'}}></div>
-      <div className="absolute bottom-40 left-16 w-6 h-6 border border-emerald-400 opacity-15 animate-pulse" style={{animationDelay: '1.5s', animationDuration: '4s'}}></div>
-      <div className="absolute top-1/2 right-10 w-10 h-10 border-2 border-lime-300 rounded-full opacity-10 animate-spin" style={{animationDelay: '3s', animationDuration: '15s'}}></div>
-      
-      {/* Organic Pattern Overlays */}
-      <div className="absolute bottom-20 right-1/4 opacity-5">
-        <div className="w-24 h-24 border-2 border-green-400 rounded-full animate-spin" style={{animationDuration: '25s'}}></div>
-      </div>
-      <div className="absolute top-1/3 left-8 opacity-8">
-        <div className="w-16 h-16 border border-emerald-300 rounded-full animate-pulse" style={{animationDuration: '8s'}}></div>
-      </div>
-    </div>
-  );
-};
+const ArrowIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5" aria-hidden="true">
+    <path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
 
-// Home Component
+const LeafIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6" aria-hidden="true">
+    <path d="M20 4C10 4 4 9 4 18c5.5 1 12-1.5 14.5-6.5C20 8.5 20 4 20 4Z" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M4 20c2.5-5 6-8 11-10" strokeLinecap="round" />
+  </svg>
+);
+
+const RecycleIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6" aria-hidden="true">
+    <path d="m8 3-3 5h4l2-3M16 3l3 5h-4l-2-3M5 16h5l-2 3M19 16h-5l2 3" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M9 8h6M7 16l2-4M17 16l-2-4" strokeLinecap="round" />
+  </svg>
+);
+
+const CommunityIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6" aria-hidden="true">
+    <circle cx="9" cy="8" r="3" />
+    <circle cx="17" cy="9" r="2.5" />
+    <path d="M3 20c.4-3.5 2.5-5 6-5s5.6 1.5 6 5M14 15c3.5-.8 6 .7 7 4" strokeLinecap="round" />
+  </svg>
+);
+
+const features = [
+  {
+    title: "Circular waste solutions",
+    description: "We turn organic waste into practical products that return value to farms, homes, and communities.",
+    icon: RecycleIcon,
+  },
+  {
+    title: "Safer everyday choices",
+    description: "Non-toxic alternatives designed to support healthy soil, clean homes, and responsible animal care.",
+    icon: LeafIcon,
+  },
+  {
+    title: "People-led progress",
+    description: "We work alongside farmers and local communities to make sustainable practices accessible and useful.",
+    icon: CommunityIcon,
+  },
+];
+
+const productCategories = [
+  {
+    title: "Home care",
+    text: "Natural, effective solutions for cleaner homes that are safer for families, pets, and the environment.",
+    image: "/images/HomeCare.png",
+    className: "bg-peelz-aqua/30 border-peelz-aqua",
+  },
+  {
+    title: "Agriculture",
+    text: "Bio-enzyme and organic products that help farmers improve soil health and grow with confidence.",
+    image: "/images/Agriculture.png",
+    className: "bg-peelz-sage border-peelz-forest",
+  },
+  {
+    title: "Animal care",
+    text: "Gentle, plant-based care products designed to support healthier animals and cleaner living spaces.",
+    image: "/images/Animalcare.png",
+    className: "bg-peelz-forest/50 border-peelz-forest",
+  },
+];
+
+const recognitionImages = ["/images/v.1.png", "/images/v.2.png", "/images/v.3.png", "/images/v.4.png", "/images/v.5.png"];
+
 const Home = () => {
-  return (
-    <div className="min-h-screen relative bg-gradient-to-br from-green-50 via-emerald-25 via-lime-50 to-teal-50 overflow-x-hidden">
-      {/* Floating Elements Background */}
-      <FloatingElements />
-      
-      {/* Hero Section */}
-      <div className="relative pt-24 pb-16 z-10 mt-10">
-        <div className="container mx-auto px-6 text-center">
-          <div className="max-w-7xl mx-auto">
-            <div className="relative">
-              {/* Background decoration */}
-              <div className="absolute inset-0 bg-gradient-to-r from-green-100/60 via-emerald-100/60 to-lime-100/60 rounded-3xl blur-xl"></div>
-              
-              <div className="relative text-xl leading-relaxed text-gray-800 bg-white/90 backdrop-blur-md rounded-3xl p-12 shadow-2xl border border-green-200/50">
-                <div className="mb-8">
-                  <h1 className="text-5xl font-bold bg-gradient-to-r from-green-700 via-emerald-600 to-teal-600 bg-clip-text text-transparent mb-4 leading-tight">
-                    Peelz Factory Pvt. Ltd.
-                  </h1>
-                  <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-500 mx-auto rounded-full"></div>
-                </div>
-                
-                <p className="text-lg text-gray-700 leading-relaxed max-w-5xl mx-auto">
-                  Transforming organic waste into eco-friendly agricultural and household solutions through innovative technology. Based in Gawan, Sambhal, Uttar Pradesh, we address India's critical waste management and environmental challenges using advanced anaerobic decomposition processes.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed max-w-5xl mx-auto mt-6">
-                  Our comprehensive product range includes bio-fertilizers, natural cleaners, and animal hygiene solutions—all safe for humans, pets, and the environment. By fostering a circular economy, we convert waste into valuable resources while reducing methane emissions, enhancing soil health, and promoting biodiversity.
-                </p>
-                
-                <div className="mt-10">
-                  <div className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                    <span className="mr-3">Building a Cleaner, Greener Future</span>
-                    <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <ImageSlider />
-      <Aim />
-      <Purpose />
-      <Vision />
-    </div>
-  );
-};
-
-// Image Slider Component
-const ImageSlider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const images = [
-    "/images/banner-1.png",
-    "/images/banner-2.png",
-    "/images/banner-9.png",
-    "/images/banner-4.png",
-    "/images/banner-10.png",
-    "/images/banner-7.png",
-    "/images/banner-8.png",
-    "/images/banner-3.png",
-    "/images/banner-5.png",
-  ];
+  const [recognitionIndex, setRecognitionIndex] = useState(0);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % images.length);
-    }, 4000);
-    return () => clearInterval(timer);
-  }, [images.length]);
+    const timer = window.setInterval(() => {
+      setRecognitionIndex((currentIndex) => (currentIndex + 1) % recognitionImages.length);
+    }, 2000);
+    return () => window.clearInterval(timer);
+  }, []);
 
   return (
-    <div className="relative h-[70vh] mb-16 mt-8">
-      <div className="relative h-full rounded-3xl overflow-hidden mx-96 my-10 shadow-2xl">
-        <Swiper
-          modules={[Pagination, Autoplay]} 
-          spaceBetween={0}
-          slidesPerView={1}
-          pagination={{ 
-            clickable: true,
-            bulletClass: 'swiper-pagination-bullet !bg-green-600',
-            bulletActiveClass: 'swiper-pagination-bullet-active !bg-emerald-700'
-          }}
-          autoplay={{ delay: 3500, disableOnInteraction: false }}
-          loop={true}
-          className="h-full rounded-3xl"
-        >
-          {images.map((image, index) => (
-            <SwiperSlide key={index} className="flex items-center justify-center bg-gradient-to-br from-green-50 to-emerald-50">
-              <img
-                src={image}
-                alt={`Sustainable Innovation ${index + 1}`}
-                className="w-full h-full object-contain drop-shadow-xl"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+  <main className="bg-peelz-offwhite text-peelz-dark">
+    <div className="overflow-x-auto border-b border-peelz-aqua/60 bg-peelz-dark pt-24 text-white lg:pt-[84px]">
+      <div className=" mx-auto flex min-w-max items-center justify-center gap-4 px-6 py-3 text-sm font-semibold md:text-base">
+        <span>Add your products to the cart and click Checkout on WhatsApp.</span>
+        <Link to="/products" className="inline-flex items-center gap-1.5 rounded-lg bg-peelz-sage px-4 py-1.5 text-peelz-dark transition hover:bg-peelz-forest motion-safe:animate-pulse">
+          
+          Order here
+        </Link>
       </div>
     </div>
-  );
-};
-
-// Aim Component
-const Aim = () => {
-  const aims = [
-    {
-      title: "Sustainable Waste Management",
-      description: "Provide sustainable waste management and environmental protection solutions by creating multi-purpose, eco-friendly products from organic waste using advanced anaerobic decomposition technology.",
-      icon: <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-xl">S</div>
-    },
-    {
-      title: "Pollution-Free Living",
-      description: "Promote the adoption of non-toxic alternatives in farming, cleaning, and waste management to minimize pollution caused by agricultural chemicals, livestock waste, and household cleaners.",
-      icon: <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-xl">P</div>
-    },
-    {
-      title: "Community Empowerment",
-      description: "Empower rural and urban communities with cost-effective solutions while generating awareness about waste recycling and its environmental benefits through education and collaboration.",
-      icon: <div className="w-12 h-12 bg-gradient-to-br from-teal-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-xl">C</div>
-    }
-  ];
-
-  return (
-    <section className="container mx-auto px-6 mb-20 relative z-10">
-      <div className="relative bg-gradient-to-br from-white/95 via-green-50/90 to-emerald-50/95 backdrop-blur-md rounded-3xl p-12 shadow-2xl border border-green-200/50">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
-          <div className="lg:w-1/2">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-300/20 to-emerald-400/20 rounded-3xl blur-2xl"></div>
-              <img
-                src="/images/aim.png"
-                alt="Our Mission for Sustainability"
-                className="relative z-10 w-full h-80 object-cover rounded-3xl shadow-2xl border-4 border-white/70"
-              />
-              <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white p-4 rounded-full shadow-xl">
-                <div className="w-6 h-6 bg-white/20 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-          
-          <div className=" space-y-8">
-            <div className="text-center">
-              <h2 className="text-6xl font-bold bg-gradient-to-r from-green-700 via-emerald-600 to-teal-600 bg-clip-text text-transparent mb-4">
-                Our Aim
-              </h2>
-               </div>
-            
-            {aims.map((aim, index) => (
-              <div key={index} className="group bg-gradient-to-r from-green-50/90 via-emerald-50/90 to-lime-50/90 rounded-2xl p-8 border border-green-300/30 hover:shadow-xl transition-all duration-500 hover:scale-105 hover:border-green-400/50 backdrop-blur-sm">
-                <div className="flex items-start gap-6">
-                  <div className="group-hover:scale-110 transition-transform duration-300">
-                    {aim.icon}
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-semibold text-green-800 mb-3 group-hover:text-green-900 transition-colors">
-                      {aim.title}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      {aim.description}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+    <div className="mt-4 overflow-hidden border-b border-peelz-forest/60 bg-peelz-sage text-peelz-dark">
+      <div className="flex w-max whitespace-nowrap animate-marquee-reverse">
+        <span className="shrink-0 px-8 py-2.5 text-sm font-semibold md:text-base">
+          For bulk and white-label orders, contact us on 99715 06594.
+        </span>
+        <span aria-hidden="true" className="shrink-0 px-8 py-2.5 text-sm font-semibold md:text-base">
+          For bulk and white-label orders, contact us on 99715 06594.
+        </span>
+        <span aria-hidden="true" className="shrink-0 px-8 py-2.5 text-sm font-semibold md:text-base">
+          For bulk and white-label orders, contact us on 99715 06594.
+        </span>
+        <span aria-hidden="true" className="shrink-0 px-8 py-2.5 text-sm font-semibold md:text-base">
+          For bulk and white-label orders, contact us on 99715 06594.
+        </span>
+        <span aria-hidden="true" className="shrink-0 px-8 py-2.5 text-sm font-semibold md:text-base">
+          For bulk and white-label orders, contact us on 99715 06594.
+        </span>
       </div>
-    </section>
-  );
-};
-
-// Purpose Component
-const Purpose = () => {
-  const purposes = [
-    {
-      title: "Combatting Pollution",
-      description: "Minimize soil, water, and air pollution caused by chemicals and improper waste disposal. We focus on eco-friendly alternatives and reducing harmful chemical usage through innovative biotechnology solutions.",
-      gradient: "from-slate-600 via-gray-700 to-slate-800",
-      bgGradient: "from-slate-50 to-gray-100",
-      image: "/images/p-1.png",
-      icon: "P"
-    },
-    {
-      title: "Promoting Health & Biodiversity",
-      description: "Provide farmers, households, and industries with safe alternatives that protect human health and enhance biodiversity. Our natural, non-toxic products support ecosystem balance and community wellness.",
-      gradient: "from-rose-600 via-pink-700 to-red-800",
-      bgGradient: "from-rose-50 to-pink-100",
-      image: "/images/p-2.png",
-      icon: "H"
-    },
-    {
-      title: "Fostering Economic Growth",
-      description: "Drive innovation and economic growth through scalable, sustainable waste management business models. We create employment opportunities while developing new markets for eco-friendly products.",
-      gradient: "from-amber-600 via-yellow-700 to-orange-800",
-      bgGradient: "from-amber-50 to-yellow-100",
-      image: "/images/p-3.png",
-      icon: "E"
-    },
-    {
-      title: "Raising Awareness",
-      description: "Inspire environmental action through impactful education and collaborative partnerships. We conduct awareness campaigns, workshops, and community programs to promote sustainable practices.",
-      gradient: "from-green-600 via-emerald-700 to-teal-800",
-      bgGradient: "from-green-50 to-emerald-100",
-      image: "/images/p-4.png",
-      icon: "A"
-    },
-    {
-      title: "Integrating Sustainability",
-      description: "Champion cleaner, greener living by encouraging sustainable practices in daily life. We help individuals and businesses integrate environmental responsibility into their everyday operations.",
-      gradient: "from-blue-600 via-cyan-700 to-teal-800",
-      bgGradient: "from-blue-50 to-cyan-100",
-      image: "/images/p-5.png",
-      icon: "S"
-    },
-  ];
-
-  return (
-    <section className="container mx-auto px-6 mb-20 relative z-10">
-      {/* Section Header */}
-      <div className="text-center mb-16 relative">
-        <h2 className="text-6xl font-bold bg-gradient-to-r from-green-700 via-emerald-600 to-teal-600 bg-clip-text text-transparent mb-4">
-          Our Purpose
-        </h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-500 mx-auto rounded-full mb-6"></div>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Transforming waste into sustainable solutions, securing nature's future through innovation and responsible environmental stewardship
-        </p>
-      </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {purposes.map((purpose, index) => (
-          <div
-            key={index}
-            className="group bg-white/95 backdrop-blur-sm rounded-3xl overflow-hidden shadow-xl border border-green-200/50 hover:shadow-2xl hover:scale-105 transition-all duration-500 hover:border-green-300/70"
-          >
-            <div className={`h-52 bg-gradient-to-br ${purpose.gradient} relative overflow-hidden`}>
-              <div className="absolute inset-0 bg-black/10"></div>
-              <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold text-lg backdrop-blur-sm">
-                {purpose.icon}
-              </div>
-              
-              <img
-                src={purpose.image}
-                alt={purpose.title}
-                className="absolute inset-0 w-full h-full object-contain p-8 filter drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
-              />
-            </div>
-            
-            <div className={`p-8 bg-gradient-to-br ${purpose.bgGradient} relative`}>
-              <h3 className="text-xl font-bold text-green-800 mb-4 group-hover:text-green-900 transition-colors">
-                {purpose.title}
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                {purpose.description}
-              </p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
-
-// Vision Component
-const Vision = () => {
-  return (
-    <section className="container mx-auto px-6 mb-20 relative z-10">
-      <div className="relative bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600 rounded-3xl p-16 text-white text-center shadow-2xl overflow-hidden">
-        {/* Decorative background elements */}
-        <div className="absolute top-8 left-8 w-20 h-20 bg-white/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-12 right-12 w-16 h-16 bg-white/15 rounded-full blur-lg animate-pulse" style={{animationDelay: '2s'}}></div>
-        <div className="absolute top-1/2 left-16 w-12 h-12 bg-white/10 rounded-full blur-md animate-pulse" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-16 right-1/4 w-8 h-8 bg-white/20 rounded-full blur-sm animate-pulse" style={{animationDelay: '3s'}}></div>
-        
-        {/* Content */}
-        <div className="relative z-10">
-          <div className="mb-8">
-            <div className="w-16 h-16 bg-white/20 rounded-full mx-auto mb-6 flex items-center justify-center backdrop-blur-sm">
-              <div className="w-8 h-8 bg-white/30 rounded-full"></div>
-            </div>
-            <h2 className="text-6xl font-bold mb-6 drop-shadow-lg">
-              Our Vision
-            </h2>
-            <div className="w-24 h-1 bg-white/40 mx-auto rounded-full"></div>
-          </div>
-          
-          <p className="text-2xl leading-relaxed max-w-5xl mx-auto font-light drop-shadow-sm mb-10">
-            To be the leading force in transforming waste into wealth, creating a sustainable future where every piece of organic waste becomes a stepping stone towards environmental restoration and community prosperity.
+    </div>
+    <section className="bg-gradient-to-br from-peelz-offwhite to-peelz-aqua/30">
+      <div className="mx-auto grid max-w-[1200px] items-center gap-12 px-6 pb-10 pt-0 md:px-8 md:pb-24 md:pt-2 lg:grid-cols-2 lg:gap-16 lg:pt-4">
+        <div>
+          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">Peelz Factory Pvt. Ltd.</p>
+          <h1 className="max-w-2xl text-4xl font-bold leading-tight md:text-6xl">
+            Turning organic waste into a better future.
+          </h1>
+          <p className="mt-6 max-w-xl text-lg leading-[1.7] text-peelz-dark/75">
+            We develop responsible agricultural, household, and animal-care solutions from organic waste, helping communities live and grow with less chemical impact.
           </p>
-          
-          <div className="flex flex-wrap justify-center gap-6">
-            <div className="bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full border border-white/30 hover:bg-white/30 transition-all duration-300">
-              <span className="text-lg font-semibold">Restore Nature</span>
-            </div>
-            <div className="bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full border border-white/30 hover:bg-white/30 transition-all duration-300">
-              <span className="text-lg font-semibold">Secure Future</span>
-            </div>
-            <div className="bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full border border-white/30 hover:bg-white/30 transition-all duration-300">
-              <span className="text-lg font-semibold">Transform Waste</span>
-            </div>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Link to="/products" className="inline-flex items-center justify-center gap-2 rounded-lg bg-peelz-dark px-6 py-3 font-semibold text-white transition duration-200 ease-in-out hover:bg-peelz-forest">
+              Explore products <ArrowIcon />
+            </Link>
+            <Link to="/founders" className="inline-flex items-center justify-center rounded-lg border border-peelz-dark px-6 py-3 font-semibold text-peelz-dark transition duration-200 ease-in-out hover:bg-peelz-sage">
+              Meet our team
+            </Link>
           </div>
+        </div>
+        <div className="w-full max-w-[460px] justify-self-end overflow-hidden rounded-xl shadow-lg">
+          <img src="/images/farm.png" alt="Farmers working in a green agricultural field" className="aspect-square w-full object-cover" />
         </div>
       </div>
     </section>
+
+    
+
+    <section className="bg-peelz-offwhite">
+      <div className="mx-auto max-w-[1200px] px-6 py-12 md:px-8 md:py-20">
+        <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">Our product range</p>
+            <h2 className="mt-3 text-3xl font-bold md:text-4xl">Natural solutions for every part of life.</h2>
+          </div>
+          <Link to="/products" className="inline-flex items-center gap-2 font-semibold text-peelz-dark transition duration-200 hover:text-peelz-forest">Explore all products <ArrowIcon /></Link>
+        </div>
+        <div className="mx-auto mt-10 grid max-w-4xl gap-5 md:grid-cols-3">
+          {productCategories.map((category) => {
+            return (
+            <article key={category.title} className={`overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md ${category.className}`}>
+              <div className="flex aspect-square items-center justify-center bg-white/40 p-4">
+                <img src={category.image} alt={`${category.title} products`} loading="lazy" className="aspect-square w-full rounded-lg object-contain" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-lg font-bold">{category.title}</h3>
+                <p className="mt-2 text-sm leading-[1.65] text-peelz-dark/75">{category.text}</p>
+              </div>
+            </article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <section className="bg-white">
+      <div className="mx-auto grid max-w-[1200px] items-center gap-10 px-6 py-12 md:px-8 md:py-20 lg:grid-cols-2">
+        <div className="overflow-hidden rounded-xl shadow-lg">
+          <div className="relative overflow-hidden rounded-xl shadow-lg">
+            <img src={recognitionImages[recognitionIndex]} alt="At Home event at the President&apos;s House in New Delhi" className="aspect-square w-full object-cover transition-opacity duration-200" />
+          </div>
+        </div>
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">President&apos;s House</p>
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">At Home reception at Rashtrapati Bhavan on Republic Day</h2>
+          <p className="mt-4 leading-[1.7] text-peelz-dark/75">At Home, an event hosted at the President&apos;s House in New Delhi on 26 January 2026, our work was part of a meaningful national gathering. The occasion also connected us with the PMO India, the District Magistrate of Sambhal, and the Commissioner of Moradabad. These engagements reflect the growing recognition of practical, community-led sustainability.</p>
+          <p className="mt-5 leading-[1.7] text-peelz-dark/75">The occasion also connected us with the PMO India, the District Magistrate of Sambhal, and the Commissioner of Moradabad. These engagements reflect the growing recognition of practical, community-led sustainability.</p>
+          <a href={`https://wa.me/919971506594?text=${encodeURIComponent("Hi, I am interested in working with you")}`} className="mt-7 inline-flex items-center gap-2 rounded-lg bg-peelz-forest px-6 py-3 font-semibold text-peelz-dark transition duration-200 ease-in-out hover:bg-peelz-aqua">Work with us <ArrowIcon /></a>
+        </div>
+      </div>
+    </section>
+
+    <section className="bg-white">
+      <div className="mx-auto max-w-[1200px] px-6 py-12 md:px-8 md:py-20">
+        <div className="max-w-2xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">What guides us</p>
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Purpose built for practical change.</h2>
+          <p className="mt-4 leading-[1.7] text-peelz-dark/75">Our work connects responsible production with the everyday needs of farmers, families, and the wider environment.</p>
+        </div>
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
+          {features.map(({ title, description, icon: Icon }) => (
+            <article key={title} className="rounded-xl border border-peelz-aqua/40 bg-white p-7 transition duration-200 ease-in-out hover:-translate-y-0.5 hover:border-peelz-forest hover:shadow-md">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-peelz-sage text-peelz-dark"><Icon /></div>
+              <h3 className="mt-6 text-xl font-bold">{title}</h3>
+              <p className="mt-3 leading-[1.7] text-peelz-dark/75">{description}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className="bg-peelz-sage">
+      <div className="mx-auto max-w-[1200px] px-6 py-12 text-center md:px-8 md:py-20">
+        <h2 className="text-3xl font-bold md:text-4xl">Make a more responsible choice.</h2>
+        <p className="mx-auto mt-4 max-w-2xl leading-[1.7] text-peelz-dark/75">Explore products and partnerships that move everyday sustainability from intention to action.</p>
+        <Link to="/products" className="mt-7 inline-flex items-center gap-2 rounded-lg bg-peelz-dark px-6 py-3 font-semibold text-white transition duration-200 ease-in-out hover:bg-peelz-forest">Browse the catalogue <ArrowIcon /></Link>
+      </div>
+    </section>
+  </main>
   );
 };
 
-// Custom CSS for animations
-const customStyles = `
-  @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-  }
-  
-  .swiper-pagination-bullet {
-    width: 12px !important;
-    height: 12px !important;
-    opacity: 0.7 !important;
-  }
-  
-  .swiper-pagination-bullet-active {
-    opacity: 1 !important;
-    transform: scale(1.2);
-  }
-`;
-
-// Export individual components for use
-export { Home, ImageSlider, Aim, Purpose, Vision };
 export default Home;

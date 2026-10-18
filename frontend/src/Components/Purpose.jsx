@@ -1,5 +1,3 @@
-import React from "react";
-
 const Purpose = () => {
   const purposes = [
     {
@@ -43,11 +41,11 @@ const Purpose = () => {
             key={index}
             className="max-w-xs w-1/3 rounded overflow-hidden shadow-lg border border-gray-200"
           >
-            <div className={`${purpose.color} h-32 relative`}>
+            <div className={`${purpose.color} relative aspect-square`}>
               <img
                 src={purpose.image}
                 alt={purpose.title}
-                className="absolute inset-0 w-full h-full object-contain opacity-80"
+                className="absolute inset-0 h-full w-full object-contain opacity-80"
               />
             </div>
             <div className="p-4">

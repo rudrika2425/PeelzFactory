@@ -1,4 +1,3 @@
-import React from 'react'
 import CollaborationSlider from './CollaborationSlider'
 import Collaborators from './Collaborators'
 

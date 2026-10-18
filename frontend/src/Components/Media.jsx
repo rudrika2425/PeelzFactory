@@ -1,55 +1,38 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import media from "./data/media.json";
+import Lightbox from "./Shared/Lightbox";
+import { getMediaImages, handleImageError } from "./utils/imagePaths";
 
 const Media = () => {
-  const [selectedImage, setSelectedImage] = useState(null); // State to store clicked image
-
-  const bgColors = [
-    "bg-gray-400", "bg-green-400", "bg-blue-400", "bg-yellow-400",
-    "bg-purple-400", "bg-pink-400", "bg-teal-400", "bg-indigo-400",
-  ];
-
-  // Generate image paths dynamically
-  const images = Array.from({ length: 76 }, (_, i) =>
-    i < 43 ? `/images/news-${i + 1}.png` : `/images/news-${i + 1}.jpg`
-  );
-
-  const cards = images.map((image, index) => ({
-    image,
-    bgColor: bgColors[index % bgColors.length],
-  }));
+  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="bg-gray-100 m-10 p-2">
-      <h3 className="text-6xl font-bold text-center mt-20 mb-8">Our Spotlight</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 p-4">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className={`p-1 rounded-lg shadow-md ${card.bgColor} overflow-hidden w-48 cursor-pointer`}
-            onClick={() => setSelectedImage(card.image)}
-          >
-            <img
-              src={card.image}
-              alt={`Media ${index + 1}`}
-              className="w-full h-36 object-cover rounded-lg"
-            />
-          </div>
-        ))}
+    <main className="min-h-screen bg-peelz-offwhite px-5 py-24 text-peelz-dark md:px-8">
+      <h1 className="mb-8 text-center text-4xl font-bold md:text-5xl">Our Spotlight</h1>
+      <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+        {media.map((item) => {
+          const images = getMediaImages(item.id);
+          return (
+            <article key={item.id} className="rounded-xl border border-peelz-aqua/40 bg-peelz-white p-3 shadow-sm">
+              <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg bg-peelz-offwhite">
+                <img
+                  src={images[0]}
+                  onError={handleImageError}
+                  onClick={(event) => { event.stopPropagation(); setSelectedImage(images[0]); }}
+                  alt={item.title}
+                  className="h-full w-full cursor-pointer object-contain"
+                />
+              </div>
+              <p className="mt-3 text-xs text-peelz-dark/60">{item.source}{item.date ? ` | ${item.date}` : ""}</p>
+              <h2 className="mt-2 text-lg font-bold leading-snug text-peelz-dark">{item.title}</h2>
+              <p className="mt-2 text-sm leading-[1.6] text-peelz-dark/75">{item.description}</p>
+              {item.link && <a className="mt-3 inline-block text-sm text-peelz-forest underline" href={item.link} target="_blank" rel="noreferrer">Read more</a>}
+            </article>
+          );
+        })}
       </div>
-
-      {selectedImage && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-          onClick={() => setSelectedImage(null)}
-        >
-          <img
-            src={selectedImage}
-            alt="Preview"
-            className="max-w-full max-h-screen object-contain bg-white p-4"
-          />
-        </div>
-      )}
-    </div>
+      <Lightbox image={selectedImage} alt="Media preview" onClose={() => setSelectedImage(null)} />
+    </main>
   );
 };
 
