@@ -1,23 +1,177 @@
 [
   {
     "id": 1,
-    "title": "Sustainability Leadership Recognition",
+    "title": "Certificate Course on Processing of Fruits, Vegetables and Spices",
     "organization": "Peelz Factory",
-    "date": "2024",
-    "description": "Recognition for advancing practical, chemical-free solutions for homes, farms, and communities."
+    "date": "",
+    "description": "Certificate course on processing fruits, vegetables, and spices."
   },
   {
     "id": 2,
-    "title": "Innovation in Bio-Enzyme Solutions",
+    "title": "Certificate of Appreciation (Prashasti-Patra) for Farmer Respect Day (Kisan Samman Diwas)",
     "organization": "Peelz Factory",
-    "date": "2024",
-    "description": "Recognition for converting organic waste into useful, biodegradable products."
+    "date": "",
+    "description": "Certificate of appreciation for Farmer Respect Day."
   },
   {
     "id": 3,
-    "title": "Community Impact Award",
+    "title": "Certificate of Appreciation (प्रशस्ति-पत्र) for Farmer Respect Day (किसान सम्मान दिवस)",
     "organization": "Peelz Factory",
+    "date": "",
+    "description": "Certificate of appreciation for Farmer Respect Day."
+  },
+  {
+    "id": 4,
+    "title": "Certificate of Appreciation for delivering an invited address on composting and crop quality at the National Webinar on Bioenzymes-2024",
+    "organization": "National Webinar on Bioenzymes-2024",
     "date": "2024",
-    "description": "Recognition for farmer training, rural entrepreneurship, and sustainable community development."
+    "description": "Recognition for delivering an invited address on composting and crop quality."
+  },
+  {
+    "id": 5,
+    "title": "Certificate of Appreciation for Guest Speaker / Resource Person (for conducting an online session)",
+    "organization": "Peelz Factory",
+    "date": "",
+    "description": "Certificate of appreciation for conducting an online session as a guest speaker and resource person."
+  },
+  {
+    "id": 6,
+    "title": "Certificate of Participation in the mass batching movement of Bioenzyme on World Bioenzyme Day 2024",
+    "organization": "World Bioenzyme Day",
+    "date": "2024",
+    "description": "Certificate of participation in the mass batching movement of Bioenzyme."
+  },
+  {
+    "id": 7,
+    "title": "Certificate of Recognition (National Centre for Organic & Natural Farming)",
+    "organization": "National Centre for Organic & Natural Farming",
+    "date": "",
+    "description": "Recognition from the National Centre for Organic & Natural Farming."
+  },
+  {
+    "id": 8,
+    "title": "Certificate of Recognition from the National Centre for Organic & Natural Farming for delivering a guest lecture on bio-enzymes in natural farming during a 30-day course in Dec",
+    "organization": "National Centre for Organic & Natural Farming",
+    "date": "",
+    "description": "Recognition for delivering a guest lecture on bio-enzymes in natural farming during a 30-day course."
+  },
+  {
+    "id": 9,
+    "title": "'District' Millionaire Farmer Award 2025 (MFOI Awards Certificate)",
+    "organization": "MFOI Awards",
+    "date": "2025",
+    "description": "Certificate for the 'District' Millionaire Farmer Award."
+  },
+  {
+    "id": 10,
+    "title": "Farmer of the Year Award 2025 (MFOI Awards Certificate)",
+    "organization": "MFOI Awards",
+    "date": "2025",
+    "description": "Certificate for the Farmer of the Year Award."
+  },
+  {
+    "id": 11,
+    "title": "Letter of Support for Virtual Incubation Program 'SHITIJ-2024'",
+    "organization": "SHITIJ-2024",
+    "date": "2024",
+    "description": "Letter of support for the Virtual Incubation Program."
+  },
+  {
+    "id": 12,
+    "title": "Photograph capturing a meeting with the Honourable Prime Minister Narendra Modi",
+    "organization": "Government of India",
+    "date": "",
+    "description": "Photograph capturing a meeting with the Honourable Prime Minister Narendra Modi."
+  },
+  {
+    "id": 13,
+    "title": "Securing first place in the Natural Farming (प्राकृतिक खेती) competition",
+    "organization": "Natural Farming Competition",
+    "date": "",
+    "description": "Recognition for securing first place in the Natural Farming competition."
+  },
+  {
+    "id": 14,
+    "title": "Special invitation as a guest to the President's At Home reception at Rashtrapati Bhavan on Republic Day",
+    "organization": "Rashtrapati Bhavan",
+    "date": "",
+    "description": "Special invitation to the President's At Home reception on Republic Day."
+  },
+  {
+    "id": 15,
+    "title": "Taru Singh completed an online course on Advance Farming Techniques to Empower Indian Farmers from Govt. Holkar Science College in August 2023",
+    "organization": "Govt. Holkar Science College",
+    "date": "August 2023",
+    "description": "Completion of an online course on Advance Farming Techniques to Empower Indian Farmers."
+  },
+  {
+    "id": 16,
+    "title": "Taru Singh received a Certificate of Appreciation for participating in a webinar on Integration of Ayurvedic Herbs into FSSAI-Compliant Food Products held on June 21, 2025",
+    "organization": "Webinar on Ayurvedic Herbs and FSSAI-Compliant Food Products",
+    "date": "June 21, 2025",
+    "description": "Certificate of appreciation for participating in a webinar on integrating Ayurvedic herbs into FSSAI-compliant food products."
+  },
+  {
+    "id": 17,
+    "title": "Certificate awarded by Udyogwardhini (Skill Development Institute) for participation and contribution between 17th February - 11th March 2025",
+    "organization": "Udyogwardhini Skill Development Institute",
+    "date": "17 February - 11 March 2025",
+    "description": "Certificate for participation and contribution during the program."
+  },
+  {
+    "id": 18,
+    "title": "अमर उजाला समर्पण सम्मान (Amar Ujala Samarpan Samman) - प्रशस्ति पत्र (Certificate of Appreciation)",
+    "organization": "Amar Ujala",
+    "date": "",
+    "description": "Certificate of appreciation under the Amar Ujala Samarpan Samman."
+  },
+  {
+    "id": 19,
+    "title": "किसान कल्याण मिशन (Kisan Kalyan Mission) - प्रशस्ति-पत्र (Certificate of Appreciation)",
+    "organization": "Kisan Kalyan Mission",
+    "date": "",
+    "description": "Certificate of appreciation from the Kisan Kalyan Mission."
+  },
+  {
+    "id": 20,
+    "title": "किसान कल्याण मिशन (Kisan Kalyan Mission) - प्रशस्ति-पत्र (Certificate of Appreciation)",
+    "organization": "Kisan Kalyan Mission",
+    "date": "",
+    "description": "Certificate of appreciation from the Kisan Kalyan Mission."
+  },
+  {
+    "id": 21,
+    "title": "प्रशस्ति-पत्र (Certificate of Appreciation) - कृषि विभाग, उत्तर प्रदेश (Agriculture Department, Uttar Pradesh) for किसान सम्मान दिवस (Farmer Respect Day), 23 December 2022",
+    "organization": "Agriculture Department, Uttar Pradesh",
+    "date": "23 December 2022",
+    "description": "Certificate of appreciation for Farmer Respect Day."
+  },
+  {
+    "id": 22,
+    "title": "प्रशस्ति-पत्र (Certificate of Appreciation) - कृषि विभाग, उत्तर प्रदेश (Agriculture Department, Uttar Pradesh)",
+    "organization": "Agriculture Department, Uttar Pradesh",
+    "date": "",
+    "description": "Certificate of appreciation from the Agriculture Department, Uttar Pradesh."
+  },
+  {
+    "id": 23,
+    "title": "प्रशस्ति-पत्र (Certificate of Appreciation) - संभल कार्तिक महोत्सव विकासोत्सव 2024 (Sambhal Kartik Mahotsav Vikasotsav 2024)",
+    "organization": "Sambhal Kartik Mahotsav Vikasotsav",
+    "date": "2024",
+    "description": "Certificate of appreciation for Sambhal Kartik Mahotsav Vikasotsav."
+  },
+  {
+    "id": 24,
+    "title": "सम्मान पत्र (Certificate of Honor) - Sardar Vallabhbhai Patel University of Agriculture & Technology, Meerut",
+    "organization": "Sardar Vallabhbhai Patel University of Agriculture & Technology, Meerut",
+    "date": "",
+    "description": "Certificate of honor from Sardar Vallabhbhai Patel University of Agriculture & Technology."
+  },
+  {
+    "id": 25,
+    "title": "स्मृति चिन्ह (Memento / Commemorative Plaque) - Farmer Producer Organization Meet (कृषक उत्पादक संगठन समागम)",
+    "organization": "Farmer Producer Organization Meet",
+    "date": "",
+    "description": "Memento from the Farmer Producer Organization Meet."
   }
 ]

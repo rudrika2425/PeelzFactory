@@ -8,7 +8,10 @@ const Media = () => {
 
   return (
     <main className="min-h-screen bg-peelz-offwhite px-5 py-24 text-peelz-dark md:px-8">
-      <h1 className="mb-8 text-center text-4xl font-bold md:text-5xl">Our Spotlight</h1>
+      <p className="mt-5 mb-4 text-center text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">
+          Making Headlines Every Day
+        </p>
+      <h1 className="mb-12 text-center text-4xl font-bold md:text-5xl">Our Spotlight</h1>
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
         {media.map((item) => {
           const images = getMediaImages(item.id);

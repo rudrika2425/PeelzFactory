@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Lightbox from "./Shared/Lightbox";
 import { handleImageError } from "./utils/imagePaths";
+import recognitions from "./data/recognitions.json";
 
 const recognitionFiles = import.meta.glob("../../public/images/recognition/*", {
   eager: true,
@@ -8,24 +9,31 @@ const recognitionFiles = import.meta.glob("../../public/images/recognition/*", {
   import: "default",
 });
 
-const getRecognitionTitle = (filePath) => {
+const recognitionFilesById = Object.keys(recognitionFiles).reduce((filesById, filePath) => {
   const fileName = filePath.split("/").pop() || "";
-  return fileName
-    .replace(/\.[^.]+$/, "")
-    .replace(/\s+/g, " ")
-    .replace(/[.]+$/, "")
-    .trim();
-};
+  const fileId = Number.parseInt(fileName.replace(/\.[^.]+$/, ""), 10);
 
-const recognitionImages = Object.entries(recognitionFiles)
-  .map(([filePath]) => {
-    const fileName = filePath.split("/").pop() || "";
+  if (Number.isInteger(fileId)) {
+    filesById[fileId] = fileName;
+  }
+
+  return filesById;
+}, {});
+
+const recognitionImages = recognitions
+  .map((recognition) => {
+    const fileName = recognitionFilesById[recognition.id];
+
+    if (!fileName) {
+      return null;
+    }
+
     return {
       src: encodeURI(`/images/recognition/${fileName}`),
-      title: getRecognitionTitle(filePath),
+      title: recognition.title,
     };
   })
-  .sort((first, second) => first.title.localeCompare(second.title));
+  .filter(Boolean);
 
 const Recognition = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -37,10 +45,7 @@ const Recognition = () => {
           Recognition and milestones
         </p>
         <h1 className="mt-3 text-center text-4xl font-bold md:text-5xl">Our Recognition</h1>
-        <p className="mx-auto mt-5 max-w-2xl text-center leading-[1.7] text-peelz-dark/75">
-          A collection of certificates, honours, and milestones that reflect our work with farmers,
-          communities, institutions, and national leaders.
-        </p>
+       
 
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {recognitionImages.map((item) => (
