@@ -32,7 +32,7 @@ const Lightbox = ({ image, alt, onClose }) => {
       <img
         src={image}
         alt={alt}
-        className="aspect-square max-h-[95vh] max-w-[95vw] object-contain"
+        className="max-h-[95vh] max-w-[95vw] object-contain"
         onError={handleImageError}
         onClick={(event) => event.stopPropagation()}
       />

@@ -16,7 +16,7 @@ const Footer = () => (
         <h2 className="font-bold text-white">Contact</h2>
         <div className="mt-4 space-y-3 text-white/80">
           <a href="tel:+919971506594" className="block transition duration-200 hover:text-peelz-sage">+91 99715 06594</a>
-          <p>Badi Garhi , Gawan, Sambhal, Uttar Pradesh</p>
+          <p className="break-words">Badi Garhi, Gawan, Sambhal, Uttar Pradesh</p>
           <p>Mon – Fri : 10 am – 7 pm</p>
         </div>
       </div>

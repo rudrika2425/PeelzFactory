@@ -7,7 +7,7 @@ const Founders = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <main className="min-h-screen bg-peelz-offwhite px-6 py-28 text-peelz-dark md:px-8 lg:py-36">
+    <main className="min-h-screen overflow-x-hidden bg-peelz-offwhite px-4 py-28 text-peelz-dark sm:px-6 md:px-8 lg:py-36">
       <header className="mx-auto mb-16 max-w-[1200px]">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-peelz-forest">People behind the work</p>
         <h1 className="mt-3 text-4xl font-bold md:text-5xl">Our team</h1>
@@ -33,7 +33,7 @@ const Founders = () => {
               />
               <div className="flex-1 text-center lg:text-left">
                 <span className="mb-3 inline-block rounded-full bg-peelz-sage px-4 py-2 text-sm font-semibold text-peelz-dark">{member.role}</span>
-                <h2 className="mb-2 text-3xl font-bold">{member.name}</h2>
+                <h2 className="mb-2 break-words text-3xl font-bold">{member.name}</h2>
                 <div className="mx-auto mb-4 h-0.5 w-16 rounded-full bg-peelz-aqua lg:mx-0" />
                 <p className="text-lg leading-[1.7] text-peelz-dark/75">{member.detail}</p>
               </div>

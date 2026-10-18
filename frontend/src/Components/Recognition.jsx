@@ -39,15 +39,15 @@ const Recognition = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <main className="min-h-screen bg-peelz-offwhite px-6 py-28 text-peelz-dark md:px-8">
+    <main className="min-h-screen overflow-x-hidden bg-peelz-offwhite px-4 py-28 text-peelz-dark sm:px-6 md:px-8">
       <div className="mx-auto max-w-[1200px]">
         <p className="text-center text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">
           Recognition and milestones
         </p>
-        <h1 className="mt-3 text-center text-4xl font-bold md:text-5xl">Our Recognition</h1>
+        <h1 className="mt-3 text-center text-3xl font-bold sm:text-4xl md:text-5xl">Our Recognition</h1>
        
 
-        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-3">
           {recognitionImages.map((item) => (
             <article key={item.src} className="rounded-xl border border-peelz-aqua/40 bg-peelz-white p-4 shadow-sm">
               <button
@@ -64,7 +64,7 @@ const Recognition = () => {
                   loading="lazy"
                 />
               </button>
-              <h2 className="mt-4 text-lg font-bold leading-snug">{item.title}</h2>
+              <h2 className="mt-4 break-words text-sm font-bold leading-snug sm:text-lg">{item.title}</h2>
             </article>
           ))}
         </div>

@@ -47,16 +47,15 @@ const Collaborators = () => {
   ];
 
   return (
-    <body className="overflow-x-hidden">
-    <div className="bg-gray-100 py-12 justify-center m-14 rounded-lg">
-      <div className="ml-28 mr-28">
+    <div className="overflow-x-hidden bg-gray-100 px-3 py-8 sm:px-6 sm:py-12 lg:px-14">
+      <div className="mx-auto max-w-6xl">
         
         {collaborators.map((collaborator) => (
           <div
             key={collaborator.id}
-            className="container mx-auto flex flex-col md:flex-row items-center md:space-x-10 px-4 mb-10"
+            className="container mx-auto mb-10 flex flex-col items-center gap-6 px-2 md:flex-row md:space-x-10"
           >
-            <div className="md:flex-1.5 flex-shrink-0 mb-6 md:mb-0 m-5 p-5">
+            <div className="w-full flex-shrink-0 md:mb-0 md:w-2/5 md:p-5">
               <img
                 src={collaborator.image}
                 alt={collaborator.name}
@@ -64,17 +63,16 @@ const Collaborators = () => {
               />
             </div>
 
-            <div className="md:flex-1">
-              <h2 className="text-3xl font-bold text-gray-700 mb-6">
+            <div className="w-full min-w-0 md:flex-1">
+              <h2 className="mb-4 break-words text-2xl font-bold text-gray-700 sm:text-3xl">
                 {collaborator.name}
               </h2>
-              <p className="text-gray-600 text-lg">{collaborator.description}</p>
+              <p className="text-base leading-relaxed text-gray-600 sm:text-lg">{collaborator.description}</p>
             </div>
           </div>
         ))}
       </div>
     </div>
-    </body>
   );
 };
 

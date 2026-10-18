@@ -82,10 +82,10 @@ const Home = () => {
 
   return (
   <main className="bg-peelz-offwhite text-peelz-dark">
-    <div className="overflow-x-auto border-b border-peelz-aqua/60 bg-peelz-dark pt-24 text-white lg:pt-[84px]">
-      <div className=" mx-auto flex min-w-max items-center justify-center gap-4 px-6 py-3 text-sm font-semibold md:text-base">
-        <span>Add your products to the cart and click Checkout on WhatsApp.</span>
-        <Link to="/products" className="inline-flex items-center gap-1.5 rounded-lg bg-peelz-sage px-4 py-1.5 text-peelz-dark transition hover:bg-peelz-forest motion-safe:animate-pulse">
+    <div className="overflow-hidden border-b border-peelz-aqua/60 bg-peelz-dark pt-24 text-white lg:pt-[84px]">
+      <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-center gap-2 px-4 py-3 text-center text-sm font-semibold sm:flex-row sm:gap-4 sm:px-6 md:text-base">
+        <span className="max-w-[20rem] leading-6 sm:max-w-none">Add your products to the cart and click Checkout on WhatsApp.</span>
+        <Link to="/products" className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-peelz-sage px-4 py-1.5 text-peelz-dark transition hover:bg-peelz-forest motion-safe:animate-pulse">
           
           Order here
         </Link>
@@ -111,13 +111,12 @@ const Home = () => {
       </div>
     </div>
     <section className="bg-gradient-to-br from-peelz-offwhite to-peelz-aqua/30">
-      <div className="mx-auto grid max-w-[1200px] items-center gap-12 px-6 pb-10 pt-0 md:px-8 md:pb-24 md:pt-2 lg:grid-cols-2 lg:gap-16 lg:pt-4">
-        <div>
-          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">Peelz Factory Pvt. Ltd.</p>
-          <h1 className="max-w-2xl text-4xl font-bold leading-tight md:text-6xl">
+      <div className="mx-auto grid max-w-[1200px] items-start gap-8 px-4 pb-10 pt-0 sm:px-6 md:gap-12 md:px-8 md:pb-24 md:pt-2 lg:grid-cols-2 lg:gap-16 lg:pt-4">
+        <div className="self-start">
+           <h1 className="max-w-2xl text-3xl font-bold leading-tight sm:text-4xl md:text-6xl mt-5">
             Turning organic waste into a better future.
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-[1.7] text-peelz-dark/75">
+          <p className="mt-5 max-w-xl text-base leading-[1.7] text-peelz-dark/75 sm:text-lg">
             We develop responsible agricultural, household, and animal-care solutions from organic waste, helping communities live and grow with less chemical impact.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -129,7 +128,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-[460px] justify-self-end overflow-hidden rounded-xl shadow-lg">
+        <div className="w-full max-w-[460px] justify-self-end overflow-hidden rounded-xl shadow-lg lg:max-w-[460px]">
           <img src="/images/farm.png" alt="Farmers working in a green agricultural field" className="aspect-square w-full object-cover" />
         </div>
       </div>
@@ -146,16 +145,16 @@ const Home = () => {
           </div>
           <Link to="/products" className="inline-flex items-center gap-2 font-semibold text-peelz-dark transition duration-200 hover:text-peelz-forest">Explore all products <ArrowIcon /></Link>
         </div>
-        <div className="mx-auto mt-10 grid max-w-4xl gap-5 md:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-4xl grid-cols-3 gap-2 sm:gap-5">
           {productCategories.map((category) => {
             return (
             <article key={category.title} className={`overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md ${category.className}`}>
               <div className="flex aspect-square items-center justify-center bg-white/40 p-4">
                 <img src={category.image} alt={`${category.title} products`} loading="lazy" className="aspect-square w-full rounded-lg object-contain" />
               </div>
-              <div className="p-5">
-                <h3 className="text-lg font-bold">{category.title}</h3>
-                <p className="mt-2 text-sm leading-[1.65] text-peelz-dark/75">{category.text}</p>
+              <div className="p-2 sm:p-5">
+                <h3 className="break-words text-sm font-bold sm:text-lg">{category.title}</h3>
+                <p className="mt-2 break-words text-[0.65rem] leading-[1.45] text-peelz-dark/75 sm:text-sm sm:leading-[1.65]">{category.text}</p>
               </div>
             </article>
             );

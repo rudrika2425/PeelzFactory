@@ -53,7 +53,7 @@ const ProductDetail = () => {
   };
 
   return (
-    <main className="min-h-screen bg-peelz-offwhite px-6 py-28 text-peelz-dark md:px-8">
+    <main className="min-h-screen overflow-x-hidden bg-peelz-offwhite px-4 py-28 text-peelz-dark sm:px-6 md:px-8">
       <div className="mx-auto max-w-[1200px]">
         <Link to="/products" className="text-lg font-semibold text-peelz-forest transition hover:text-peelz-dark">Back to products</Link>
 
@@ -68,14 +68,14 @@ const ProductDetail = () => {
                 className="aspect-square w-full cursor-pointer rounded-xl object-contain"
               />
             </div>
-            <div className="mx-auto mt-4 flex max-w-[430px] flex-wrap gap-2">
+            <div className="mx-auto mt-4 flex max-w-[430px] flex-wrap justify-center gap-2 sm:justify-start">
               {images.map((image, index) => (
                 <button
                   type="button"
                   key={image}
                   onClick={() => setActiveImage(index)}
                   aria-label={`Show ${item.name} image ${index + 1}`}
-                  className={`w-[4.5rem] rounded-xl border bg-white p-1 transition duration-200 hover:-translate-y-0.5 ${
+                  className={`w-[3.75rem] rounded-xl border bg-white p-1 transition duration-200 hover:-translate-y-0.5 sm:w-[4.5rem] ${
                     activeImage === index ? "border-peelz-dark shadow-md" : "border-peelz-aqua/50"
                   }`}
                 >
@@ -92,7 +92,7 @@ const ProductDetail = () => {
 
           <div className="w-full p-0 md:min-h-[560px] md:pt-2">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-peelz-forest">{item.category}</p>
-            <h1 className="mt-3 text-3xl font-bold md:text-5xl">{item.name}</h1>
+            <h1 className="mt-3 break-words text-3xl font-bold md:text-5xl">{item.name}</h1>
             <p className="mt-8 text-xl text-peelz-dark/65">Pack size: {item.size}</p>
 
             <p className="mt-10 leading-[1.7] text-peelz-dark/75">

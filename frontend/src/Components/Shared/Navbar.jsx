@@ -26,14 +26,14 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed inset-x-0 top-0 z-50 border-b border-peelz-aqua/50 bg-white transition-shadow duration-200 ${isScrolled ? "shadow-md" : ""}`}>
-      <div className="mx-auto flex max-w-[1200px] items-center justify-between px-5 py-2 md:px-7">
+      <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-3 px-4 py-2 sm:px-5 md:px-7">
         <Link to="/" onClick={() => setIsOpen(false)} aria-label="Peelz Factory home" className="shrink-0">
-          <img src="/images/logo.png" alt="Peelz Factory" className="h-14 w-52 object-contain object-left drop-shadow-sm transition duration-200 hover:scale-[1.02] sm:h-16 sm:w-64" />
+          <img src="/images/logo.png" alt="Peelz Factory" className="h-12 w-36 object-contain object-left drop-shadow-sm transition duration-200 hover:scale-[1.02] sm:h-16 sm:w-64" />
         </Link>
-        <div className="hidden items-center gap-6 lg:flex">
+        <div className="hidden min-w-0 items-center gap-4 lg:flex xl:gap-6">
           {navItems.map((item) => (
             <Link key={item.path} to={item.path} className={`relative py-2 text-sm font-semibold text-peelz-dark transition duration-200 after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:bg-peelz-forest after:transition-transform after:duration-200 hover:after:scale-x-100 ${location.pathname === item.path ? "after:scale-x-100" : "after:scale-x-0"}`}>
-              {item.label}
+              <span className="whitespace-nowrap">{item.label}</span>
             </Link>
           ))}
           <a href="tel:+919971506594" className="rounded-lg bg-peelz-dark px-3 py-2 text-sm font-semibold text-white transition duration-200 hover:bg-peelz-forest">Call us</a>
@@ -53,14 +53,20 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <button type="button" aria-label={isOpen ? "Close menu" : "Open menu"} onClick={() => setIsOpen(!isOpen)} className="rounded-lg border border-peelz-aqua p-2 text-peelz-dark lg:hidden">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6" aria-hidden="true"><path d={isOpen ? "M6 6l12 12M18 6 6 18" : "M4 7h16M4 12h16M4 17h16"} strokeLinecap="round" /></svg>
-        </button>
+        <div className="flex items-center gap-1.5 lg:hidden sm:gap-2">
+          <a href="tel:+919971506594" className="rounded-lg bg-peelz-dark px-2 py-2 text-[0.65rem] font-semibold text-white transition duration-200 hover:bg-peelz-forest sm:px-3 sm:text-sm">Call us</a>
+          <Link to="/cart" aria-label={`Cart with ${cartCount} items`} className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-peelz-aqua text-peelz-dark transition duration-200 hover:bg-peelz-sage">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6" strokeLinecap="round" strokeLinejoin="round" /><circle cx="10" cy="20" r="1" /><circle cx="18" cy="20" r="1" /></svg>
+            {cartCount > 0 && <span className="absolute -right-2 -top-2 flex h-5 min-w-5 items-center justify-center rounded-full bg-peelz-forest px-1 text-xs font-bold text-peelz-dark">{cartCount}</span>}
+          </Link>
+          <button type="button" aria-label={isOpen ? "Close menu" : "Open menu"} onClick={() => setIsOpen(!isOpen)} className="rounded-lg border border-peelz-aqua p-2 text-peelz-dark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5 sm:h-6 sm:w-6" aria-hidden="true"><path d={isOpen ? "M6 6l12 12M18 6 6 18" : "M4 7h16M4 12h16M4 17h16"} strokeLinecap="round" /></svg>
+          </button>
+        </div>
       </div>
       {isOpen && (
         <div className="border-t border-peelz-aqua/50 bg-white px-6 pb-5 pt-3 lg:hidden">
           {navItems.map((item) => <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="block rounded-lg px-3 py-3 font-semibold text-peelz-dark hover:bg-peelz-sage">{item.label}</Link>)}
-          <Link to="/cart" onClick={() => setIsOpen(false)} className="mt-2 flex items-center justify-center gap-2 rounded-lg border border-peelz-aqua px-3 py-3 font-semibold text-peelz-dark hover:bg-peelz-sage">Cart ({cartCount})</Link>
           <div className="mt-3 flex justify-center gap-3">
             <a href="https://www.instagram.com/peelz_factory2024?psln=MWV1c21hYXp3cnV0eA==" target="_blank" rel="noreferrer" aria-label="Peelz Factory on Instagram" className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-peelz-forest text-peelz-dark hover:bg-peelz-sage">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r=".75" fill="currentColor" stroke="none" /></svg>
