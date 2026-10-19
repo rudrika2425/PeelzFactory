@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Natural Vermi Compost",
+    "name": "Vermi Compost",
     "brand": "Peelz Factory",
     "category": "Agriculture",
     "mrp": 85,
@@ -24,15 +24,11 @@
       "Water thoroughly after application."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Use only as directed and keep out of reach of children.",
-      "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
 },
   {
     "id": 2,
-    "name": "Natural Vermi Tea",
+    "name": "Vermi Tea",
     "category": "Agriculture",
     "mrp": 200,
     "bestPrice": 125,
@@ -52,15 +48,11 @@
         "Use weekly or as needed for best results in plant health and soil vitality."
     ],
     "storage": "Store Peelz Factory's Natural Vermi Tea in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "Use only as directed and keep out of reach of children.",
-        "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
   },
   {
     "id": 3,
-    "name": "Natural Animal Shield",
+    "name": "Animal Shield",
     "category": "Animal Care",
     "mrp": 300,
     "bestPrice": 150,
@@ -79,15 +71,11 @@
         "Use the solution to bathe your animal and spray it in their sheds for cleanliness and freshness."
     ],
     "storage": "Store Peelz Factory's Natural Animal Shield in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "For external use only unless the product instructions state otherwise.",
-        "Keep away from eyes and sensitive areas; discontinue use if irritation occurs."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
 },
   {
     "id": 4,
-    "name": "Natural Rose Floor Cleaner",
+    "name": "Rose Floor Cleaner",
     "category": "Home Care",
     "mrp": 185,
     "bestPrice": 120,
@@ -104,15 +92,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 5,
-    "name": "Natural Growth Booster",
+    "name": "Growth Booster",
     "category": "Agriculture",
     "mrp": 400,
     "bestPrice": 200,
@@ -132,15 +116,11 @@
         "Spray directly onto crops for optimal growth."
     ],
     "storage": "Store Peelz Factory's Natural Growth Booster in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "Use only as directed and keep out of reach of children.",
-        "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
 },
   {
     "id": 6,
-    "name": "Natural Ticks Cleaner (Pets)",
+    "name": "Ticks Cleaner (Pets)",
     "category": "Animal Care",
     "mrp": 600,
     "bestPrice": 300,
@@ -158,15 +138,11 @@
         "Apply to affected areas of the animal, then spray the shed, focusing on corners for effective tick elimination and environmental cleanliness."
     ],
     "storage": "Store Peelz Factory's Natural Ticks Cleaner in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "For external use only unless the product instructions state otherwise.",
-        "Keep away from eyes and sensitive areas; discontinue use if irritation occurs."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
 },
   {
     "id": 7,
-    "name": "Natural Ticks Cleaner (Animals)",
+    "name": "Ticks Cleaner (Animals)",
     "category": "Animal Care",
     "mrp": 500,
     "bestPrice": 250,
@@ -184,15 +160,11 @@
         "Apply to affected areas of the animal, then spray the shed, focusing on corners for effective tick elimination and environmental cleanliness."
     ],
     "storage": "Store Peelz Factory's Natural Ticks Cleaner in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "For external use only unless the product instructions state otherwise.",
-        "Keep away from eyes and sensitive areas; discontinue use if irritation occurs."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
 },
   {
     "id": 8,
-    "name": "Natural Plant Protector",
+    "name": "Plant Protector",
     "category": "Agriculture",
     "mrp": 500,
     "bestPrice": 250,
@@ -212,11 +184,7 @@
         "Use in morning or evening for optimal effectiveness."
     ],
     "storage": "Store Peelz Factory's Natural Plant Protector in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "Use only as directed and keep out of reach of children.",
-        "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
 },
   {
     "id": 9,
@@ -237,11 +205,7 @@
       "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 10,
@@ -262,11 +226,7 @@
       "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 11,
@@ -287,11 +247,7 @@
       "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 12,
@@ -312,15 +268,11 @@
       "Enjoy: Reapply as needed to eliminate odors and refresh living spaces, washrooms, or office areas."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 13,
-    "name": "Natural Dishwash",
+    "name": "Dishwash",
     "category": "Home Care",
     "mrp": 350,
     "bestPrice":185 ,
@@ -338,15 +290,11 @@
       "For tough grease, apply a few drops directly onto the dish before scrubbing."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 14,
-    "name": "Natural Hand Wash",
+    "name": "Hand Wash",
     "category": "Home Care",
     "mrp": 235,
     "bestPrice": 175,
@@ -363,15 +311,11 @@
       "Rinse: Rinse thoroughly under clean running water and dry."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 15,
-    "name": "Natural Laundry Wash",
+    "name": "Laundry Wash",
     "category": "Home Care",
     "mrp": 349,
     "bestPrice": 215,
@@ -389,15 +333,11 @@
       "Tough Stains: Apply a few drops directly onto the collar, cuffs, or stubborn spots 10 minutes prior to washing."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 16,
-    "name": "Natural Puja Cleaner",
+    "name": "Puja Cleaner",
     "category": "Home Care",
     "mrp": 299,
     "bestPrice": 180,
@@ -409,15 +349,11 @@
       "Rinse & Dry: Wash thoroughly with clean water and wipe immediately with a dry cloth for a bright, spot-free shine."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 17,
-    "name": "Natural Tile Cleaner",
+    "name": "Tile Cleaner",
     "category": "Home Care",
     "mrp": 375,
     "bestPrice": 200,
@@ -429,15 +365,11 @@
       "Regular Floor Mopping: Dilute 30–60 ml in half a bucket of water (approx. 4 litres) and mop as usual. No rinsing required."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 18,
-    "name": "Natural Tough Stain Cleaner",
+    "name": "Tough Stain Cleaner",
     "category": "Home Care",
     "mrp": 199,
     "bestPrice": 95,
@@ -450,14 +382,10 @@
       "Scrub & Rinse: Scrub lightly with a sponge or brush, then rinse thoroughly with clean water or wipe clean with a wet cloth. (For extra stubborn or old stains, repeat the process or let it sit for up to 10 minutes before scrubbing.)"
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },{
     "id": 19,
-    "name": "Natural Mogra Floor Cleaner",
+    "name": "Mogra Floor Cleaner",
     "category": "Home Care",
     "mrp": 185,
     "bestPrice": 120,
@@ -474,15 +402,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 20,
-    "name": "Natural Lemon Floor Cleaner",
+    "name": "Lemon Floor Cleaner",
     "category": "Home Care",
     "mrp": 185,
     "bestPrice": 120,
@@ -499,15 +423,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 21,
-    "name": "Natural Sandalwood Floor Cleaner",
+    "name": "Sandalwood Floor Cleaner",
     "category": "Home Care",
     "mrp": 185,
     "bestPrice": 120,
@@ -524,15 +444,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   }
   ,{
     "id": 22,
-    "name": "Natural Soil Booster",
+    "name": "Soil Booster",
     "category": "Agriculture",
     "mrp": 400,
     "bestPrice": 200,
@@ -552,15 +468,11 @@
         "Add it to your irrigation channel or apply it to crops using drip irrigation."
     ],
     "storage": "Store Peelz Factory's Natural Soil Booster in an airtight bottle, away from direct sunlight.",
-    "Precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only.",
-    "precaution": [
-        "Use only as directed and keep out of reach of children.",
-        "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Formation of natural gas is normal due to natural ingredients; release pressure gently if needed. For external use only."
 },
   {
     "id": 23,
-    "name": "Natural Vermi Compost",
+    "name": "Vermi Compost",
     "brand": "Peelz Factory",
     "category": "Agriculture",
     "mrp": 400,
@@ -583,15 +495,11 @@
       "Water thoroughly after application."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Use only as directed and keep out of reach of children.",
-      "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
 },
 {
     "id": 24,
-    "name": "Natural Vermi Compost",
+    "name": "Vermi Compost",
     "brand": "Peelz Factory",
     "category": "Agriculture",
     "mrp": 650,
@@ -614,15 +522,11 @@
       "Water thoroughly after application."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Use only as directed and keep out of reach of children.",
-      "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
 },
 {
     "id": 25,
-    "name": "Natural Vermi Compost",
+    "name": "Vermi Compost",
     "brand": "Peelz Factory",
     "category": "Agriculture",
     "mrp": 3000,
@@ -645,15 +549,11 @@
       "Water thoroughly after application."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Use only as directed and keep out of reach of children.",
-      "Avoid contact with eyes; wash hands after handling."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
 },
 {
     "id": 26,
-    "name": "Natural Dishwash",
+    "name": "Dishwash",
     "category": "Home Care",
     "mrp": 199,
     "bestPrice": 120,
@@ -671,15 +571,11 @@
       "For tough grease, apply a few drops directly onto the dish before scrubbing."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 27,
-    "name": "Natural Hand Wash Refil Pack",
+    "name": "Hand Wash Refil Pack",
     "category": "Home Care",
     "mrp": 450,
     "bestPrice": 275,
@@ -696,15 +592,11 @@
       "Rinse: Rinse thoroughly under clean running water and dry."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 28,
-    "name": "Natural Puja Cleaner",
+    "name": "Puja Cleaner",
     "category": "Home Care",
     "mrp": 449,
     "bestPrice": 250,
@@ -716,15 +608,11 @@
       "Rinse & Dry: Wash thoroughly with clean water and wipe immediately with a dry cloth for a bright, spot-free shine."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 29,
-    "name": "Natural Rose Floor Cleaner",
+    "name": "Rose Floor Cleaner",
     "category": "Home Care",
     "mrp": 899,
     "bestPrice": 490,
@@ -741,14 +629,10 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },{
     "id": 30,
-    "name": "Natural Mogra Floor Cleaner",
+    "name": "Mogra Floor Cleaner",
     "category": "Home Care",
     "mrp": 899,
     "bestPrice": 490,
@@ -765,15 +649,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 31,
-    "name": "Natural Lemon Floor Cleaner",
+    "name": "Lemon Floor Cleaner",
     "category": "Home Care",
     "mrp": 899,
     "bestPrice": 490,
@@ -790,15 +670,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 32,
-    "name": "Natural Sandalwood Floor Cleaner",
+    "name": "Sandalwood Floor Cleaner",
     "category": "Home Care",
     "mrp": 899,
     "bestPrice": 490,
@@ -815,15 +691,11 @@
       "Tough Stains: Apply a few drops undiluted directly onto the stain, let sit for 2–3 minutes, and wipe clean with a damp cloth or mop."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only.",
-    "precaution": [
-      "Keep out of reach of children and pets.",
-      "Do not mix with other cleaning products; test on a small area before use."
-    ]
+    "precaution": "Natural gas buildup is normal—release pressure gently if needed. For external use only."
   },
   {
     "id": 33,
-    "name": "Natural Drainage Cleaner",
+    "name": "Drainage Cleaner",
     "category": "Home Care",
     "mrp": 349,
     "bestPrice": 175,
@@ -843,14 +715,11 @@
         "Repeat regularly for maintenance."
     ],
     "storage": "Store in a cool place away from direct sunlight.",
-    "Precaution": "For external use only.",
-    "precaution": [
-        "Keep out of reach of children and pets."
-    ]
+    "precaution": "For external use only."
 },
 {
     "id": 34,
-    "name": "Natural All In One Cleaner",
+    "name": "All In One Cleaner",
     "category": "Home Care",
     "mrp": 175,
     "bestPrice": 75,
@@ -868,10 +737,7 @@
         "Scrub & Wipe: Scrub gently, then wipe clean or rinse."
     ],
     "storage": "Store in an airtight bottle away from direct sunlight.",
-    "Precaution": "Natural gas buildup is normal due to the ingredients - just release the pressure gently if needed. For external use only.",
-    "precaution": [
-        "Keep out of reach of children and pets."
-    ]
+    "precaution": "Natural gas buildup is normal due to the ingredients - just release the pressure gently if needed. For external use only."
 }
   
 ]

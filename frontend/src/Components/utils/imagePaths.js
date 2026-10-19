@@ -4,6 +4,22 @@ const imagePaths = (type, id, count, extension) =>
     return `/images/${type}/${id}/${id}.${imageNumber}.${extension}`;
   });
 
+const allImageAssets = import.meta.glob("../../../public/images/**/*.{png,jpg,jpeg,svg}", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
+
+const getPublicImageUrl = (filePath) => encodeURI(filePath.replace("../../../public", ""));
+
+export const preloadAllImages = () => {
+  Object.keys(allImageAssets).forEach((filePath) => {
+    const image = new window.Image();
+    image.decoding = "async";
+    image.src = getPublicImageUrl(filePath);
+  });
+};
+
 const teamImageNames = {
   1: "Ashutosh_Pratap_Singh",
   2: "Taru_Singh",

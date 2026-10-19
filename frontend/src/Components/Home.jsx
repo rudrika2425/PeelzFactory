@@ -111,7 +111,7 @@ const Home = () => {
       </div>
     </div>
     <section className="bg-gradient-to-br from-peelz-offwhite to-peelz-aqua/30">
-      <div className="mx-auto grid max-w-[1200px] items-start gap-8 px-4 pb-10 pt-0 sm:px-6 md:gap-12 md:px-8 md:pb-24 md:pt-2 lg:grid-cols-2 lg:gap-16 lg:pt-4">
+      <div className="mx-auto grid max-w-[1200px] items-start gap-8 px-4 pb-10 pt-0 sm:px-6 md:grid-cols-2 md:gap-12 md:px-8 md:pb-24 md:pt-2 lg:gap-16 lg:pt-4">
         <div className="self-start">
            <h1 className="max-w-2xl text-3xl font-bold leading-tight sm:text-4xl md:text-6xl mt-5">
             Turning organic waste into a better future.
@@ -129,7 +129,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full max-w-[460px] justify-self-end overflow-hidden rounded-xl shadow-lg lg:max-w-[460px]">
-          <img src="/images/farm.png" alt="Farmers working in a green agricultural field" className="aspect-square w-full object-cover" />
+          <img src="/images/farm.png" alt="Farmers working in a green agricultural field" fetchPriority="high" decoding="async" className="aspect-square w-full object-cover" />
         </div>
       </div>
     </section>
@@ -150,7 +150,7 @@ const Home = () => {
             return (
             <article key={category.title} className={`overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md ${category.className}`}>
               <div className="flex aspect-square items-center justify-center bg-white/40 p-4">
-                <img src={category.image} alt={`${category.title} products`} loading="lazy" className="aspect-square w-full rounded-lg object-contain" />
+                <img src={category.image} alt={`${category.title} products`} loading="lazy" decoding="async" className="aspect-square w-full rounded-lg object-contain" />
               </div>
               <div className="p-2 sm:p-5">
                 <h3 className="break-words text-sm font-bold sm:text-lg">{category.title}</h3>
@@ -167,7 +167,7 @@ const Home = () => {
       <div className="mx-auto grid max-w-[1200px] items-center gap-10 px-6 py-12 md:px-8 md:py-20 lg:grid-cols-2">
         <div className="overflow-hidden rounded-xl shadow-lg">
           <div className="relative overflow-hidden rounded-xl shadow-lg">
-            <img src={recognitionImages[recognitionIndex]} alt="At Home event at the President&apos;s House in New Delhi" className="aspect-square w-full object-cover transition-opacity duration-200" />
+            <img src={recognitionImages[recognitionIndex]} alt="At Home event at the President&apos;s House in New Delhi" loading="lazy" decoding="async" className="aspect-square w-full object-cover transition-opacity duration-200" />
           </div>
         </div>
         <div>
