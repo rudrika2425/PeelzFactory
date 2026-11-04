@@ -21,6 +21,8 @@ const Gallery = () => {
                 <img
                   key={image}
                   src={image}
+                  loading="lazy"
+                  decoding="async"
                   onError={handleImageError}
                   onClick={(event) => { event.stopPropagation(); setSelectedImage(image); }}
                   alt={`${division.division} image ${index + 1}`}

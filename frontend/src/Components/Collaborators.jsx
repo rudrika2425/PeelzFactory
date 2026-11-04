@@ -59,6 +59,8 @@ const Collaborators = () => {
               <img
                 src={collaborator.image}
                 alt={collaborator.name}
+                loading="lazy"
+                decoding="async"
                 className="aspect-square w-full max-w-64 object-cover rounded-xl shadow-lg"
               />
             </div>

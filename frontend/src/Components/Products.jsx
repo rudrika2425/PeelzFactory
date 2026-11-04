@@ -45,8 +45,13 @@ const Products = () => {
           </div>
         </aside>
         <section className="grid min-w-0 grid-cols-1 gap-3 min-[420px]:grid-cols-2 sm:gap-5 xl:grid-cols-3">
-          {filteredProducts.map((item) => (
-            <ProductCard key={item.id} {...item} images={getProductImages(item.id)} />
+          {filteredProducts.map((item, index) => (
+            <ProductCard
+              key={item.id}
+              {...item}
+              images={getProductImages(item.id)}
+              priority={index < 3}
+            />
           ))}
         </section>
       </div>

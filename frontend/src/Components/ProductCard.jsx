@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ShopContext } from "./Context/ShopContextValue";
 import { getProductFallbackImage, handleImageError } from "./utils/imagePaths";
 
-const ProductCard = ({ id, name, category, mrp, bestPrice, size, images, ...item }) => {
+const ProductCard = ({ id, name, category, mrp, bestPrice, size, images, priority = false, ...item }) => {
   const { addToCart, updateQuantity, getCartQuantity } = useContext(ShopContext);
   const quantity = getCartQuantity(id);
   const discount = mrp > bestPrice ? Math.round(((mrp - bestPrice) / mrp) * 100) : 0;
@@ -22,6 +22,9 @@ const ProductCard = ({ id, name, category, mrp, bestPrice, size, images, ...item
         <img
           className="aspect-square w-full rounded-xl object-contain"
           src={images[0]}
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "low"}
+          decoding="async"
           onError={(event) => {
             event.currentTarget.src = getProductFallbackImage(category);
             event.currentTarget.onerror = handleImageError;

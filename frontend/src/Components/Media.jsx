@@ -28,6 +28,8 @@ const Media = () => {
               <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg bg-peelz-offwhite">
                 <img
                   src={images[0]}
+                  loading="lazy"
+                  decoding="async"
                   onError={handleImageError}
                   onClick={(event) => { event.stopPropagation(); setSelectedImage(images[0]); }}
                   alt={item.title}

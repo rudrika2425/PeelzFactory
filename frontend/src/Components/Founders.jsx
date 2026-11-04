@@ -26,6 +26,9 @@ const Founders = () => {
             >
               <img
                 src={images[0]}
+                loading={index === 0 ? "eager" : "lazy"}
+                fetchPriority={index === 0 ? "high" : "low"}
+                decoding="async"
                 onError={handleImageError}
                 onClick={(event) => { event.stopPropagation(); setSelectedImage(images[0]); }}
                 alt={member.name}

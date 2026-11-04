@@ -47,7 +47,7 @@ const Cart = () => {
             <div className="mt-10 space-y-4">
               {cartItems.map((item) => (
  <article key={item.id} className="grid grid-cols-[4rem_minmax(0,1fr)] items-start gap-3 rounded-xl border border-peelz-aqua/40 bg-white p-2 shadow-sm lg:flex lg:items-center lg:gap-5 lg:p-4">
-                  <img src={getProductImages(item.id, 1)[0]} onError={(event) => { event.currentTarget.src = getProductFallbackImage(item.category); event.currentTarget.onerror = handleImageError; }} alt={item.name} className="row-span-2 aspect-square h-16 w-16 shrink-0 rounded-lg object-contain lg:row-span-1 lg:h-24 lg:w-24" />
+                  <img src={getProductImages(item.id, 1)[0]} loading="lazy" decoding="async" onError={(event) => { event.currentTarget.src = getProductFallbackImage(item.category); event.currentTarget.onerror = handleImageError; }} alt={item.name} className="row-span-2 aspect-square h-16 w-16 shrink-0 rounded-lg object-contain lg:row-span-1 lg:h-24 lg:w-24" />
                   <div className="relative col-start-2 min-w-0 lg:contents">
                     <Link to={`/products/${item.id}`} className="break-words text-sm font-bold hover:text-peelz-forest sm:text-lg">{item.name}</Link>
                     <p className="mt-1 text-xs text-peelz-dark/65 sm:text-sm">{item.category}</p>

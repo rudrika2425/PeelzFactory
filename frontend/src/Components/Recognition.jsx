@@ -62,6 +62,7 @@ const Recognition = () => {
                   alt={item.title}
                   className="aspect-square w-full rounded-lg object-contain"
                   loading="lazy"
+                  decoding="async"
                 />
               </button>
               <h2 className="mt-4 break-words text-sm font-bold leading-snug sm:text-lg">{item.title}</h2>

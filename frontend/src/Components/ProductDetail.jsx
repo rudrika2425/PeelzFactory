@@ -99,6 +99,9 @@ const ProductDetail = () => {
               )}
               <img
                 src={images[activeImage]}
+                loading="eager"
+                fetchPriority="high"
+                decoding="async"
                 onError={setFallback}
                 onClick={(event) => setSelectedImage(event.currentTarget.currentSrc || images[activeImage])}
                 alt={item.name}
@@ -118,6 +121,8 @@ const ProductDetail = () => {
                 >
                   <img
                     src={image}
+                    loading="lazy"
+                    decoding="async"
                     onError={setFallback}
                     alt={`${item.name} view ${index + 1}`}
                     className="aspect-square w-full rounded-lg object-contain"

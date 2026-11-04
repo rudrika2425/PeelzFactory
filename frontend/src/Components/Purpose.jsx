@@ -45,6 +45,8 @@ const Purpose = () => {
               <img
                 src={purpose.image}
                 alt={purpose.title}
+                loading="lazy"
+                decoding="async"
                 className="absolute inset-0 h-full w-full object-contain opacity-80"
               />
             </div>

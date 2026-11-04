@@ -31,6 +31,9 @@ const CollaborationSlider = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
+              loading={index === 0 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : "low"}
+              decoding="async"
               className="aspect-square h-full w-full object-contain"
             />
           </SwiperSlide>

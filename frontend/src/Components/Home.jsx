@@ -129,7 +129,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full max-w-[460px] justify-self-end overflow-hidden rounded-xl shadow-lg lg:max-w-[460px]">
-          <img src="/images/farm.png" alt="Farmers working in a green agricultural field" fetchPriority="high" decoding="async" className="aspect-square w-full object-cover" />
+          <img src="/images/farm.png" alt="Farmers working in a green agricultural field" loading="eager" fetchPriority="high" decoding="async" className="aspect-square w-full object-cover" />
         </div>
       </div>
     </section>
