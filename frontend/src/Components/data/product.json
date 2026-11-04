@@ -274,8 +274,8 @@
     "id": 13,
     "name": "Dishwash",
     "category": "Home Care",
-    "mrp": 350,
-    "bestPrice":185 ,
+    "mrp": 199,
+    "bestPrice":120 ,
     "size": "500 ml",
     "detail": "Dishwash is a bio-based cleaner using lemon, turmeric, and reetha. It cuts through grease, removes stains, and is gentle on skin. With no synthetic surfactants, it ensures sparkling clean dishes while supporting eco-friendly kitchen practices.",
     "whyChoose": [
@@ -555,8 +555,8 @@
     "id": 26,
     "name": "Dishwash",
     "category": "Home Care",
-    "mrp": 199,
-    "bestPrice": 120,
+    "mrp": 350,
+    "bestPrice": 185,
     "size": "1 Litre",
     "detail": "Dishwash is a bio-based cleaner using lemon, turmeric, and reetha. It cuts through grease, removes stains, and is gentle on skin. With no synthetic surfactants, it ensures sparkling clean dishes while supporting eco-friendly kitchen practices.",
     "whyChoose": [
